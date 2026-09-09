@@ -2,14 +2,16 @@
 
 [제품 소개](https://ddt-mindcraft.github.io/mindcraft-showcase/?v=18) · [최종 r3 다운로드](https://github.com/ddt-mindcraft/mindcraft-showcase/releases/tag/submission-2026-09-09-v12)
 
-9/9 AI-DLC 프로젝트의 승인된 r3 첫 릴리스를 기준으로 만든 **제출본 1.0.2 (자료 이력 v13)**입니다.
+9/9 AI-DLC 프로젝트의 승인된 r3 첫 릴리스를 기준으로 만든 **제출본 1.0.3 (자료 이력 v14)**입니다.
+
+먼저 [START-HERE.md](START-HERE.md)에서 제출 순서와 최종 파일을 확인하세요.
 
 ## 지금 제출할 파일
 
 | 제출 항목 | 파일 |
 | --- | --- |
 | 소스 ZIP | **artifacts/MindCraft-submission-v1.0.1-source.zip** |
-| 본문 이미지 | **gallery/01-thumbnail.webp부터 번호 순서대로 총 5장** · [ZIP](gallery-set-v2.zip) |
+| 본문 이미지 | **gallery/01-thumbnail.webp부터 번호 순서대로 총 5장** · [ZIP](gallery-set-v3.zip) |
 | 실행 파일 | artifacts/MindCraft-0.1.0-windows-x64.exe |
 | 제목·설명·실행 안내 | SUBMISSION.md 또는 fields/ |
 

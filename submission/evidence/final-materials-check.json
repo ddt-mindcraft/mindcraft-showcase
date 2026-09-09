@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "packageVersion": "1.0.3",
+  "mediaOrder": [
+    "gallery/01-thumbnail.webp",
+    "gallery/02-easy-start.png",
+    "gallery/03-workflow.png",
+    "gallery/04-continuity.png",
+    "gallery/05-models-pi.png"
+  ],
+  "thumbnailSha256": "1a9eb02d1c7e13b08063fdc8b8e5e28c0f9f124ced6c44a74d613f28a738c609",
+  "identicalLoopEndpoints": true,
+  "sourceAndExeHashesUnchanged": true,
+  "galleryZipIntegrity": "PASS",
+  "checkedAt": "2026-09-09T07:11:15.842993+00:00"
+}

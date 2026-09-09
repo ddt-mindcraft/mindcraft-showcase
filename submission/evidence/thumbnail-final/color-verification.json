@@ -1,0 +1,14 @@
+{
+  "bothWordsChangeColor": {
+    "click": {
+      "purplePixels": 3669,
+      "at": 0.8333333333333334
+    },
+    "cut": {
+      "purplePixels": 4397,
+      "at": 1.9166666666666667
+    }
+  },
+  "duration": 4.5,
+  "firstLastMP4PixelsIdentical": true
+}

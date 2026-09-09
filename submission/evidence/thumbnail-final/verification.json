@@ -1,0 +1,15 @@
+{
+  "file": "mindcraft-thumbnail-copy.webp",
+  "bytes": 527174,
+  "size": [
+    640,
+    360
+  ],
+  "frames": 54,
+  "durationMs": 4500,
+  "loop": 0,
+  "firstLastDecodedPixelsIdentical": true,
+  "sha256": "1a9eb02d1c7e13b08063fdc8b8e5e28c0f9f124ced6c44a74d613f28a738c609",
+  "source": "../mindcraft-loop.mp4",
+  "effects": "Both action words shift from orange to solid brand purple in sequence; click press then diagonal split; no halo, bloom, sheen or slash overlay; original typography retained"
+}

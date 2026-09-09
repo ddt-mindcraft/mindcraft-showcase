@@ -7,14 +7,14 @@
     "tree": "a9e88d9dc2c39c074416b9e8c7f63abb07cf5fbf"
   },
   "fieldLengths": {
-    "title": 29,
-    "description": 606,
+    "title": 24,
+    "description": 597,
     "instructions": 264
   },
   "screenshots": [
     {
       "file": "gallery/01-result.png",
-      "title": "자료를 고르면, 결과가 한곳에",
+      "title": "자료와 결과, 한눈에",
       "caption": "선택한 자료와 결과 문서를 함께 확인합니다.",
       "source": "C:/ai/ai-dlc-09-09/mindcraft/aidlc-docs/construction/mindcraft/evidence/screenshots/workspace-1440.png",
       "sourceModified": "2026-09-09T01:17:25.919Z",
@@ -25,8 +25,8 @@
     },
     {
       "file": "gallery/02-easy-start.png",
-      "title": "설정이 막막해도, 작은 일부터",
-      "caption": "한국어 안내와 샘플 체험으로 첫 작업을 시작합니다.",
+      "title": "첫 작업은 가볍게",
+      "caption": "샘플을 따라 첫 작업을 직접 해봅니다.",
       "source": "C:/ai/ai-dlc-09-09/mindcraft/aidlc-docs/construction/mindcraft/evidence/screenshots/home-1440.png",
       "sourceModified": "2026-09-09T01:17:18.290Z",
       "sha256": "cfea5649c49b3683d630338aed8d3174c5dc14273b8099d250725750e8ab90c9",
@@ -36,7 +36,7 @@
     },
     {
       "file": "gallery/03-approval.png",
-      "title": "내 파일은, 확인하고 저장",
+      "title": "저장은 확인하고",
       "caption": "저장 경로와 변경 내용을 보고 승인합니다.",
       "source": "C:/ai/ai-dlc-09-09/mindcraft/aidlc-docs/construction/mindcraft/evidence/screenshots/approval-1440.png",
       "sourceModified": "2026-09-09T01:17:26.878Z",
@@ -47,7 +47,7 @@
     },
     {
       "file": "gallery/04-history.png",
-      "title": "지난 일을 다시 설명하지 않도록",
+      "title": "지난 일은 다음 일로",
       "caption": "작업 기록에서 이전 결과를 다시 엽니다.",
       "source": "C:/ai/ai-dlc-09-09/mindcraft/aidlc-docs/construction/mindcraft/evidence/screenshots/history-1440.png",
       "sourceModified": "2026-09-09T01:17:28.667Z",
@@ -85,5 +85,6 @@
       "sha256": "b985b852186ac2ceef44dea8cac0ae5fb43499cef261d3bfecd07e40beb663f6"
     }
   ],
-  "copyUpdatedAt": "2026-09-09T01:57:04.143Z"
+  "copyUpdatedAt": "2026-09-09T02:21:22.332Z",
+  "title": "MindCraft | AI 딸깍, 야근 싹뚝"
 }

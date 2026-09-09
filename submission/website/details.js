@@ -5,11 +5,11 @@ const orders = [
   {id:'A-03', amount:7000, status:'취소'}
 ];
 const scenes = [
-  ['자연어로 시작','원하는 결과를<br>내 말로 요청해요.','파일을 어디서 읽고 어떤 코드를 실행할지 몰라도, 무엇이 필요한지부터 설명합니다.','쉬운 시작은 작업의 목적을 분명히 하는 데서 출발합니다.','이번 작업의 입력'],
+  ['내 말로 시작','원하는 결과를<br>내 말로 요청해요.','파일을 어디서 읽고 어떤 코드를 실행할지 몰라도, 무엇이 필요한지부터 설명합니다.','어떤 결과가 필요한지 말하는 것부터 시작합니다.','이번 작업의 입력'],
   ['작업 설계','어떻게 만들지,<br>순서를 세워요.','자료 읽기 → 집계 → 결과 저장. 그런데 이 초안에는 중요한 조건이 빠져 있습니다.','계획이 있다는 것과, 계획이 요청을 충족한다는 것은 다릅니다.','검토 전 설계 초안'],
   ['설계 리뷰','리뷰에서 발견한<br>빈틈을 채워요.','취소와 중복을 제외하라는 요청이 설계에 반영됐는지 확인합니다. 두 조건을 직접 켜고 합계를 비교해보세요.','왜 고쳤는지 알 수 있게, 요청과 수정 사항을 연결합니다.','조건을 적용해 비교하기'],
   ['실행 테스트','실제로 계산하고,<br>조건을 검사해요.','이 웹 예시가 선택한 조건으로 계산한 뒤, 기대 합계와 중복·취소 제외 여부를 검사합니다.','실패하면 리뷰 단계로 돌아가 조건을 보완할 수 있습니다.','웹 예시의 검사 결과'],
-  ['결과와 근거','무엇을 만들었고,<br>무엇을 확인했는지.','결과와 검사 범위를 함께 읽습니다. 파일이 만들어졌다는 사실만으로 작업 전체를 통과 처리하지 않습니다.','확인한 범위와 확인하지 못한 범위를 구분합니다.','결과 전달 예시'],
+  ['결과와 근거','무엇을 만들었고,<br>무엇을 확인했는지.','결과와 검사 범위를 함께 읽습니다. 결과 파일뿐 아니라, 요청한 조건을 충족했는지도 확인합니다.','확인한 범위와 확인하지 못한 범위를 구분합니다.','결과 전달 예시'],
   ['다음 작업으로','확인한 결과를,<br>다음 일에 이어서.','결과와 출처를 확인해 재사용 대상으로 선택합니다. 다음 요청에서는 관련된 이전 결과를 활용합니다.','중단한 작업을 재개하는 것과, 결과를 새 요청에 활용하는 것은 다릅니다.','다음 요청 예시']
 ];
 const tabs=[...document.querySelectorAll('[data-flow]')];
@@ -36,7 +36,7 @@ function renderEvidence(){
   if(current===1)content='<ol class="plan-list"><li>주문 자료 읽기</li><li>모든 금액 더하기 <span class="finding">조건 누락</span></li><li>매출 집계 파일 만들기</li></ol><p class="evidence-explain">리뷰할 질문: 취소와 중복을 언제 제외하나요?</p>';
   if(current===2)content=`<fieldset class="review-options"><legend>리뷰 지적을 설계에 반영해보세요</legend><label><input id="exclude" type="checkbox" ${excludeCancelled?'checked':''}> 취소된 주문은 제외하기</label><label><input id="dedup" type="checkbox" ${deduplicate?'checked':''}> 같은 주문 번호는 한 번만 집계하기</label></fieldset><p class="evidence-explain">조건을 바꾸면 아래 합계가 즉시 달라집니다.</p>`;
   if(current===3||current===4)content=`<div class="test-summary ${passed?'pass':'fail'}">${passed?'3개 조건 모두 충족':'보완할 조건이 남아 있습니다'}</div><ul class="test-list">${tests.map(([label,ok])=>`<li><span class="${ok?'pass-text':'fail-text'}">${ok?'통과':'미충족'}</span>${label}</li>`).join('')}</ul><p class="evidence-explain">검사 범위: 이 페이지의 합성 데이터 4행과 위 3개 조건. 실제 모델 실행·파일 저장 테스트는 포함하지 않습니다.</p>${!passed?'<button class="review-back" id="review-back">리뷰로 돌아가 보완하기 ↗</button>':''}`;
-  if(current===5)content='<div class="reuse-example"><span>선택해 남길 결과</span><strong>매출 집계 결과 + 입력 출처</strong><span>다음 요청</span><p>“이 집계를 바탕으로 주간 보고 초안을 만들어줘.”</p></div><p class="evidence-explain">실제 제품에서는 사용자가 재사용할 결과를 선택합니다. 여기서는 재사용 흐름만 설명합니다.</p>';
+  if(current===5)content='<div class="reuse-example"><span>선택해 남길 결과</span><strong>매출 집계 결과 + 입력 출처</strong><span>다음 요청</span><p>“이 집계를 바탕으로 주간 보고 초안을 만들어줘.”</p></div><p class="evidence-explain">다음 작업에 가져갈 결과는 직접 고릅니다. 여기서는 그 흐름을 보여줍니다.</p>';
   document.querySelector('#evidence-content').innerHTML=content;
   const shown=current<2?52000:result.total;
   document.querySelector('#total-value').innerHTML=money(shown)+'<span>원</span>';

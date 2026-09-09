@@ -1,11 +1,11 @@
 {
-  "version": "v3",
-  "tag": "submission-2026-09-09-v3",
-  "archive": "MindCraft-submission-2026-09-09-v3.zip",
-  "bytes": 136926358,
-  "sha256": "6522297165984ef45128b7ea72d63443837e9972a3c834a8118b8141813f614c",
-  "title": "MindCraft | 처음은 쉽게, 다음 일은 이어서",
-  "summary": "제목 복원과 제품 중심 메시지",
-  "release": "https://github.com/ddt-mindcraft/mindcraft-showcase/releases/tag/submission-2026-09-09-v3",
-  "download": "https://github.com/ddt-mindcraft/mindcraft-showcase/releases/download/submission-2026-09-09-v3/MindCraft-submission-2026-09-09-v3.zip"
+  "version": "v4",
+  "tag": "submission-2026-09-09-v4",
+  "archive": "MindCraft-submission-2026-09-09-v4.zip",
+  "bytes": 136927050,
+  "sha256": "3d08984acecfd3470bc01ca381074b1a828cc248afbbce9c16efa64c24eea0ff",
+  "title": "MindCraft | AI 딸깍, 야근 싹뚝",
+  "summary": "AI 딸깍, 야근 싹뚝 확정",
+  "release": "https://github.com/ddt-mindcraft/mindcraft-showcase/releases/tag/submission-2026-09-09-v4",
+  "download": "https://github.com/ddt-mindcraft/mindcraft-showcase/releases/download/submission-2026-09-09-v4/MindCraft-submission-2026-09-09-v4.zip"
 }

@@ -45,7 +45,7 @@ Windows 실행 파일을 내려받아 쓰기 가능한 별도 폴더에 놓고 �
 ### 업로드할 파일
 
 - **소스 ZIP**: `artifacts/MindCraft-submission-v1.0.1-source.zip` 하나. 전체 제출 패키지와 GitHub 자동 생성 Source code(zip)는 이 항목에 올리지 않습니다.
-- **본문 이미지**: `gallery/01-thumbnail.webp`를 첫 번째(썸네일)로, `02-easy-start.png` → `03-workflow.png` → `04-continuity.png` → `05-models-pi.png` 순서로 총 5장 첨부합니다. [이미지 세트 ZIP](gallery-set-v3.zip) · [순서·설명](gallery/CAPTIONS.md)
+- **본문 이미지**: `gallery/01-thumbnail.webp`를 첫 번째(썸네일)로, `02-easy-start.png` → `03-workflow.png` → `04-continuity.png` → `05-models-pi.png` → `06-animation.webp` 순서로 총 6장 첨부합니다. [이미지 세트 ZIP](gallery-set-v4.zip) · [순서·설명](gallery/CAPTIONS.md)
 - **실행 URL (데모·Windows EXE)**: https://ddt-mindcraft.github.io/mindcraft-showcase/?v=18#product-film
 - **소개 URL**: https://ddt-mindcraft.github.io/mindcraft-showcase/?v=18
 

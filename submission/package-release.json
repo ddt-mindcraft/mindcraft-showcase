@@ -1,12 +1,12 @@
 {
-  "version": "v14",
-  "tag": "submission-2026-09-09-v14",
-  "archive": "MindCraft-submission-v1.0.3.zip",
-  "bytes": 199042410,
-  "sha256": "01a68ad13622b95480225ae0e02e52bfb321e7ff4f8edf7b34c64bf53d66e363",
+  "version": "v15",
+  "tag": "submission-2026-09-09-v15",
+  "archive": "MindCraft-submission-v1.0.4.zip",
+  "bytes": 210960887,
+  "sha256": "62762003b4e486ed20ffb97fca88dea6f6e7f64561236494219ad853dd2fd27e",
   "title": "MindCraft | AI 딸깍, 야근 싹뚝",
-  "summary": "제출본 1.0.3 · 최종 애니메이션 썸네일과 전체 자료 정리",
-  "release": "https://github.com/ddt-mindcraft/mindcraft-showcase/releases/tag/submission-2026-09-09-v14",
-  "download": "https://github.com/ddt-mindcraft/mindcraft-showcase/releases/download/submission-2026-09-09-v14/MindCraft-submission-v1.0.3.zip",
-  "releaseNote": "첫 첨부 이미지를 선택된 최종 애니메이션으로 교체했습니다. 딸깍과 싹뚝의 글자색이 주황에서 보라색으로 순서대로 바뀝니다. 4.5초·640×360·527,174바이트이며 첫·마지막 프레임이 동일합니다.\n\n첨부 이미지 5장 순서, START-HERE 안내, 이미지 전용 ZIP, 파일 목록과 검증 기록을 정리했습니다. 전체 자료 1.0.3 / 평가용 소스 1.0.1 / 앱 0.1.0 r3.\n\n[최종 썸네일](https://ddt-mindcraft.github.io/mindcraft-showcase/submission/gallery/01-thumbnail.webp) · [첨부 이미지 5장](https://ddt-mindcraft.github.io/mindcraft-showcase/submission/gallery-set-v3.zip)"
+  "summary": "제출본 1.0.4 · GIF를 WebP로 변환하고 마지막 첨부 이미지 추가",
+  "release": "https://github.com/ddt-mindcraft/mindcraft-showcase/releases/tag/submission-2026-09-09-v15",
+  "download": "https://github.com/ddt-mindcraft/mindcraft-showcase/releases/download/submission-2026-09-09-v15/MindCraft-submission-v1.0.4.zip",
+  "releaseNote": "사용자 제공 Animation.gif를 무손실 애니메이션 WebP로 변환해 6번째(마지막) 첨부 이미지로 추가했습니다. 1725×842, 388프레임, 33.34초이며 모든 프레임의 픽셀과 개별 재생 시간, 반복 설정을 검증했습니다. 기존 첫 썸네일과 2–5번 이미지는 유지합니다.\n\n[첨부 이미지 6장 ZIP](https://ddt-mindcraft.github.io/mindcraft-showcase/submission/gallery-set-v4.zip) · [추가 WebP](https://ddt-mindcraft.github.io/mindcraft-showcase/submission/gallery/06-animation.webp)"
 }

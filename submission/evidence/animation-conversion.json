@@ -1,0 +1,16 @@
+{
+  "source": "Animation.gif",
+  "file": "gallery/06-animation.webp",
+  "bytes": 2609386,
+  "sha256": "42b21ea9a54434dc5b0b670cff4f93e313fbe880b9d1101036930f90c71d5bdf",
+  "size": [
+    1725,
+    842
+  ],
+  "frames": 388,
+  "durationMs": 33340,
+  "loop": 0,
+  "losslessPixelsAllFrames": true,
+  "individualFrameDurationsPreserved": true,
+  "sourceSha256": "e7da2bfd64fcc99b9ceb87a5ef9ed71ea394201e695214de8fd3bc86e04cf5f4"
+}

@@ -1,5 +1,3 @@
 # 이전 자료 보관
 
-gallery-set-v2.zip은 이전 썸네일이 포함된 이미지 세트입니다. 새로 제출할 때 사용하지 마세요. 현재 첨부 이미지는 ../gallery/ 및 ../gallery-set-v3.zip입니다.
-
-원본 그림은 ../original-gallery/, 정지 표지 대안은 ../gallery-fallback/에 보관합니다. evidence/의 버전별 기록은 당시 검증 결과이며 현재 파일 목록은 ../manifest.json이 기준입니다.
+gallery-set-v2.zip과 gallery-set-v3.zip은 이전 이미지 구성입니다. 현재 첨부 이미지는 ../gallery/의 6장 및 ../gallery-set-v4.zip입니다. 첫 썸네일은 그대로 유지하고 사용자 제공 애니메이션을 마지막에 추가했습니다. 원본과 과거 검증 기록은 별도 보관 자료입니다.

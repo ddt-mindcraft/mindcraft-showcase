@@ -1,16 +1,17 @@
 {
   "status": "PASS",
-  "packageVersion": "1.0.3",
+  "packageVersion": "1.0.4",
   "mediaOrder": [
     "gallery/01-thumbnail.webp",
     "gallery/02-easy-start.png",
     "gallery/03-workflow.png",
     "gallery/04-continuity.png",
-    "gallery/05-models-pi.png"
+    "gallery/05-models-pi.png",
+    "gallery/06-animation.webp"
   ],
   "thumbnailSha256": "1a9eb02d1c7e13b08063fdc8b8e5e28c0f9f124ced6c44a74d613f28a738c609",
-  "identicalLoopEndpoints": true,
+  "newAnimationSha256": "42b21ea9a54434dc5b0b670cff4f93e313fbe880b9d1101036930f90c71d5bdf",
+  "animationPixelsAndTimingPreserved": true,
   "sourceAndExeHashesUnchanged": true,
-  "galleryZipIntegrity": "PASS",
-  "checkedAt": "2026-09-09T07:11:15.842993+00:00"
+  "galleryZipIntegrity": "PASS"
 }

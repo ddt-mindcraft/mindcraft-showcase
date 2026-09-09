@@ -1,6 +1,6 @@
 {
-  "preparedAt": "2026-09-09T07:11:15.564127+00:00",
-  "submissionVersion": "v14",
+  "preparedAt": "2026-09-09T07:26:56.569241+00:00",
+  "submissionVersion": "v15",
   "title": "MindCraft | AI 딸깍, 야근 싹뚝",
   "sourceSnapshot": "04284c1c98b80fa3fece9fd6d6c79cec7fba6683",
   "releaseSource": {
@@ -31,7 +31,8 @@
     "gallery/02-easy-start.png",
     "gallery/03-workflow.png",
     "gallery/04-continuity.png",
-    "gallery/05-models-pi.png"
+    "gallery/05-models-pi.png",
+    "gallery/06-animation.webp"
   ],
   "screenshots": [
     {
@@ -158,7 +159,7 @@
       }
     }
   },
-  "submissionPackageVersion": "1.0.3",
+  "submissionPackageVersion": "1.0.4",
   "applicationVersion": "0.1.0",
   "websiteRevision": 18,
   "heroVideo": {
@@ -234,6 +235,23 @@
         941
       ],
       "frames": 1
+    },
+    {
+      "source": "Animation.gif",
+      "file": "gallery/06-animation.webp",
+      "bytes": 2609386,
+      "sha256": "42b21ea9a54434dc5b0b670cff4f93e313fbe880b9d1101036930f90c71d5bdf",
+      "size": [
+        1725,
+        842
+      ],
+      "frames": 388,
+      "durationMs": 33340,
+      "loop": 0,
+      "losslessPixelsAllFrames": true,
+      "individualFrameDurationsPreserved": true,
+      "sourceSha256": "e7da2bfd64fcc99b9ceb87a5ef9ed71ea394201e695214de8fd3bc86e04cf5f4",
+      "title": "추가 애니메이션 · 사용자 제공 GIF 변환본"
     }
   ],
   "thumbnail": {
@@ -251,8 +269,8 @@
     "verification": "evidence/thumbnail-final/verification.json"
   },
   "galleryArchive": {
-    "file": "gallery-set-v3.zip",
-    "bytes": 6715615,
-    "sha256": "0688ba84077d6433750892b93f31802e0be9f56803c41efe77e78d3b2656d767"
+    "file": "gallery-set-v4.zip",
+    "bytes": 9315335,
+    "sha256": "3dedce19e0c802b687732c4e4d5139a006b9d09db3290e7471699bcf614bb382"
   }
 }

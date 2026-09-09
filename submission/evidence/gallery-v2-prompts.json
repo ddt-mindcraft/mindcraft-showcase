@@ -1,0 +1,22 @@
+[
+  {
+    "file": "02-easy-start.png",
+    "ref": "02-easy-start.png",
+    "prompt": "Edit this existing MindCraft gallery card. Keep the same 16:9 format, original purple-jacket voxel character, warm cream office and purple/orange palette and professional crisp Korean typography. Update it for the completed first release. Exact text: brand \"MindCraft · 02\"; headline \"AI 용어를 몰라도,\" / \"내 일은 아니까.\"; subtitle \"실행 파일 하나, 안내를 따라 내 첫 작업까지.\"; speech bubble \"이 자료로 모임 준비안을 만들어줘.\"; three bottom cards \"EXE 실행\" / \"모델·자료 연결\" / \"내 말로 요청\". Footer \"Windows 개인 AI · 첫 릴리스 · 콘셉트 이미지\". Remove every old text including 개발 중 and the old sales request. All Korean must be sharp and correctly spelled. No additional claims or fake app screenshots. Maintain readable generous layout."
+  },
+  {
+    "file": "03-workflow.png",
+    "ref": "03-workflow.png",
+    "prompt": "Edit this existing MindCraft infographic to accurately describe its CURRENT workflow. Preserve the warm voxel office purple-jacket character, cream/purple/orange aesthetic, 16:9 landscape and large crisp Korean typography. Replace ALL text and all old design-review-test diagrams. Exact brand \"MindCraft · 03\"; main headline \"맡긴 일은,\" / \"확인하며 끝까지.\"; subtitle \"자료에서 결과까지, 하나의 작업 흐름으로.\"; four clean left-to-right cards with exact heading/body pairs: \"자료 확인\" / \"내용과 출처를 보고 선택\", \"문서 작성\" / \"요청과 자료를 바탕으로 작성\", \"저장 승인\" / \"경로와 변경 내용을 확인\", \"작업 기록\" / \"요청과 결과를 다시 확인\". Straight arrows only. Replace old bottom sales example and feedback loop with simple footer strip \"내가 고른 자료 → 확인한 결과 → 다음 작업\". Bottom label \"Windows 개인 AI · 첫 릴리스 · 콘셉트 이미지\". Do not use words 설계 리뷰 테스트 자동검증 or sales totals. Original character at right looks at a document. No fake application screenshot. Readability first."
+  },
+  {
+    "file": "04-continuity.png",
+    "ref": "04-continuity.png",
+    "prompt": "Edit this existing MindCraft gallery image. Preserve its 16:9 composition and warm voxel office, purple/orange/cream colors and original purple jacket character. Keep large headline \"어제의 수고를,\" / \"오늘의 출발점으로.\" Replace subtitle with \"이전 결과를 보관하고, 골라서 새 요청에 활용합니다.\" Replace the two lower panels with three beautifully legible connected illustrated cards, showing document save, user checking document provenance, then document next to new laptop request. Exact card titles \"결과 보관\", \"사용 선택\", \"새 요청에 활용\". Exact short card captions \"다시 쓸 결과를 자료함에\", \"내용과 출처를 보고 선택\", \"선택한 지식을 작업 자료로\". Remove old resume-task panel, distinguish reuse clearly from merely reopening a task. Brand \"MindCraft · 04\". Bottom slogan \"지난 결과가, 다음 일의 재료로.\" Footer \"Windows 개인 AI · 첫 릴리스 · 콘셉트 이미지\". Crisp correctly spelled Korean sans serif, no other text, not fake app UI."
+  },
+  {
+    "file": "05-models-pi.png",
+    "ref": "02-easy-start.png",
+    "prompt": "Create a NEW fifth MindCraft gallery concept card matching the reference style: 16:9 landscape, refined warm cream background, original dark bob square voxel character in purple jacket, purple/orange accents. Crisp very readable Korean typography. Brand \"MindCraft · 05\". Large headline \"모델은 일에 맞게,\" / \"기반은 가볍게.\" Subtitle \"역할에 맞는 모델 선택으로 비용과 성능의 균형을.\" Two large clean cards across center-left: heading \"Planner\" with subtitle \"복잡한 계획·분석\", heading \"Worker\" with subtitle \"일반 작업 처리\". Give these conceptual brain/document icons and a small caption under both \"같은 모델 또는 서로 다른 모델을 직접 배정\". Bottom horizontal foundation card with heading \"Pi 에이전트 기반\" and caption \"가벼운 실행 엔진에 작업·권한·지식 흐름을 더했습니다.\" Original character on right assembling two purple/orange blocks on a stable base, calm refined scene. Footer \"Windows 개인 AI · 첫 릴리스 · 콘셉트 이미지\". No metrics, no guaranteed savings, no automatic stage routing claim, no fake UI. Large text hierarchy with generous margins; spell every Korean character correctly."
+  }
+]

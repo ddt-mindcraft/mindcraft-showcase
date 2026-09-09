@@ -1,0 +1,63 @@
+{
+  "status": "PASS",
+  "assets": [
+    {
+      "file": "gallery/01-thumbnail.webp",
+      "title": "AI 딸깍, 야근 싹뚝",
+      "bytes": 295696,
+      "sha256": "f4a5ac8bb83c547e3925a595103ae2f8a6dd313ed5572c91c710b315f519322b",
+      "size": [
+        640,
+        360
+      ],
+      "frames": 54
+    },
+    {
+      "file": "gallery/02-easy-start.png",
+      "title": "AI 용어를 몰라도, 내 일은 아니까.",
+      "bytes": 1470066,
+      "sha256": "ac803525d94aec9d71a4d538ca0026367d30ae29e8bd54ef7c6b149d8a5cbd8a",
+      "size": [
+        1672,
+        941
+      ],
+      "frames": 1
+    },
+    {
+      "file": "gallery/03-workflow.png",
+      "title": "맡긴 일은, 확인하며 끝까지.",
+      "bytes": 1514267,
+      "sha256": "7e6564388da92e76a8270f77637b2f48c84bfe9f63faca4be9c27d705833a896",
+      "size": [
+        1672,
+        941
+      ],
+      "frames": 1
+    },
+    {
+      "file": "gallery/04-continuity.png",
+      "title": "어제의 수고를, 오늘의 출발점으로.",
+      "bytes": 1641750,
+      "sha256": "5eff2cf7b319e35ac878aa1e2620fa93f965c45b3176a3ac4de0272e8655a8e9",
+      "size": [
+        1672,
+        941
+      ],
+      "frames": 1
+    },
+    {
+      "file": "gallery/05-models-pi.png",
+      "title": "모델은 일에 맞게, 기반은 가볍게.",
+      "bytes": 1612395,
+      "sha256": "0956ebbfbce33a20d8a7cdc413b45f3a197d3a133d0b1ff1337d0d23f81a7600",
+      "size": [
+        1672,
+        941
+      ],
+      "frames": 1
+    }
+  ],
+  "existingThumbnailUnmodified": true,
+  "conceptTextVisuallyReviewed": true,
+  "sourceArchiveChanged": false
+}

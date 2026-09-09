@@ -9,7 +9,7 @@
 | 제출 항목 | 파일 |
 | --- | --- |
 | 소스 ZIP | **artifacts/MindCraft-submission-v1.0.1-source.zip** |
-| 대표 이미지 | **gallery/01-cover.png** 한 장 |
+| 본문 이미지 | **gallery/01-thumbnail.webp부터 번호 순서대로 총 5장** · [ZIP](gallery-set-v2.zip) |
 | 실행 파일 | artifacts/MindCraft-0.1.0-windows-x64.exe |
 | 제목·설명·실행 안내 | SUBMISSION.md 또는 fields/ |
 

@@ -1,0 +1,14 @@
+{
+  "sourceFile": "최종본-중간화질.mp4",
+  "file": "website/assets/hero-final-v2.mp4",
+  "bytes": 9508329,
+  "sha256": "ac42ba0e0faeb6b04babb578eaa460715f318a142d58e5a298ac506788a02e54",
+  "originalBytesPreserved": true,
+  "durationSeconds": 38.56,
+  "resolution": [
+    856,
+    480
+  ],
+  "motionReference": "user attached mindcraft-index.html",
+  "websiteRevision": 17
+}

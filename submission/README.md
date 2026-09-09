@@ -1,6 +1,6 @@
 # MindCraft | AI 딸깍, 야근 싹뚝
 
-[제품 소개](https://ddt-mindcraft.github.io/mindcraft-showcase/?v=16) · [최종 r3 다운로드](https://github.com/ddt-mindcraft/mindcraft-showcase/releases/tag/submission-2026-09-09-v12)
+[제품 소개](https://ddt-mindcraft.github.io/mindcraft-showcase/?v=17) · [최종 r3 다운로드](https://github.com/ddt-mindcraft/mindcraft-showcase/releases/tag/submission-2026-09-09-v12)
 
 9/9 AI-DLC 프로젝트의 승인된 r3 첫 릴리스를 기준으로 만든 **제출본 1.0.1 (자료 이력 v12)**입니다.
 
@@ -35,4 +35,4 @@ Windows x64에서 EXE를 쓰기 가능한 별도 폴더에 놓고 실행하세�
 
 제출용 소스 묶음은 **1.0.1**입니다. 앱의 package.json·검증된 EXE 버전은 **0.1.0**이며 기존 최종 r3 배포물과 같습니다. 제출 파일의 버전과 앱 버전을 구분하고, 검증되지 않은 바이너리 재명명이나 재빌드는 하지 않았습니다.
 
-실행 링크(데모): https://ddt-mindcraft.github.io/mindcraft-showcase/?v=16#product-film
+실행 링크(데모): https://ddt-mindcraft.github.io/mindcraft-showcase/?v=17#product-film

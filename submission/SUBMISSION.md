@@ -1,6 +1,6 @@
 # MindCraft | AI 딸깍, 야근 싹뚝
 
-[제품 소개](https://ddt-mindcraft.github.io/mindcraft-showcase/?v=16) · [Windows 실행 파일](https://github.com/ddt-mindcraft/mindcraft-showcase/releases/download/submission-2026-09-09-v12/MindCraft-0.1.0-windows-x64.exe) · [평가용 소스 ZIP](https://github.com/ddt-mindcraft/mindcraft-showcase/releases/download/submission-2026-09-09-v12/MindCraft-submission-v1.0.1-source.zip)
+[제품 소개](https://ddt-mindcraft.github.io/mindcraft-showcase/?v=17) · [Windows 실행 파일](https://github.com/ddt-mindcraft/mindcraft-showcase/releases/download/submission-2026-09-09-v12/MindCraft-0.1.0-windows-x64.exe) · [평가용 소스 ZIP](https://github.com/ddt-mindcraft/mindcraft-showcase/releases/download/submission-2026-09-09-v12/MindCraft-submission-v1.0.1-source.zip)
 
 ## 제출 필드
 
@@ -32,7 +32,7 @@ AI 딸깍, 야근 싹뚝.
 
 - **소스 ZIP**: `artifacts/MindCraft-submission-v1.0.1-source.zip` 하나. 전체 제출 패키지와 GitHub 자동 생성 Source code(zip)는 이 항목에 올리지 않습니다.
 - **갤러리**: `gallery/01-cover.png` 한 장. 실제 데모 이미지는 소개 페이지에 있습니다.
-- **실행 URL (데모 바로가기)**: https://ddt-mindcraft.github.io/mindcraft-showcase/?v=16#product-film
-- **소개 URL**: https://ddt-mindcraft.github.io/mindcraft-showcase/?v=16
+- **실행 URL (데모 바로가기)**: https://ddt-mindcraft.github.io/mindcraft-showcase/?v=17#product-film
+- **소개 URL**: https://ddt-mindcraft.github.io/mindcraft-showcase/?v=17
 
 현재 지원 범위와 검증 근거는 [STATUS-AND-EVIDENCE.md](STATUS-AND-EVIDENCE.md), 최종 점검 사항은 [IMPROVEMENTS.md](IMPROVEMENTS.md)를 확인하세요.

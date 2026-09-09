@@ -1,11 +1,11 @@
 {
-  "version": "v5",
-  "tag": "submission-2026-09-09-v5",
-  "archive": "MindCraft-submission-2026-09-09-v5.zip",
-  "bytes": 151334832,
-  "sha256": "c7427df946b811879b62c6706b9b45d16430f954f3248615d5c881ba7c0e92bb",
+  "version": "v6",
+  "tag": "submission-2026-09-09-v6",
+  "archive": "MindCraft-submission-2026-09-09-v6.zip",
+  "bytes": 154492474,
+  "sha256": "c8bb3f7736b72a1ff3f7f4c96f82011b4bac6ff0f629442e79a6b6b252be168b",
   "title": "MindCraft | AI 딸깍, 야근 싹뚝",
-  "summary": "스크린샷 설명·기능 하이라이트와 원본 보존",
-  "release": "https://github.com/ddt-mindcraft/mindcraft-showcase/releases/tag/submission-2026-09-09-v5",
-  "download": "https://github.com/ddt-mindcraft/mindcraft-showcase/releases/download/submission-2026-09-09-v5/MindCraft-submission-2026-09-09-v5.zip"
+  "summary": "첫 이미지에 콘셉트 썸네일 적용, 갤러리 6장 정렬",
+  "release": "https://github.com/ddt-mindcraft/mindcraft-showcase/releases/tag/submission-2026-09-09-v6",
+  "download": "https://github.com/ddt-mindcraft/mindcraft-showcase/releases/download/submission-2026-09-09-v6/MindCraft-submission-2026-09-09-v6.zip"
 }

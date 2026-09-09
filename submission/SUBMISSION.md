@@ -6,6 +6,9 @@ MindCraft | AI 딸깍, 야근 싹뚝
 
 ## 프로젝트 설명
 
+1분 소개·데모 보기
+https://ddt-mindcraft.github.io/mindcraft-showcase/?v=12
+
 설정하느라 한참, 같은 설명을 또 한 번.
 정작 내 일은 언제 하죠?
 
@@ -30,8 +33,6 @@ AI 딸깍, 야근 싹뚝.
 준비는 줄이고, 맡긴 일은 확인하고, 다음 일은 더 수월하게.
 
 개발 중 · 실제 앱의 오프라인 샘플 공개(모델 호출 없음).
-1분 소개·실제 화면·현재 지원 범위:
-https://ddt-mindcraft.github.io/mindcraft-showcase/?v=11
 
 ## 실행 안내
 
@@ -47,10 +48,11 @@ artifacts/MindCraft-0.1.0-source.zip
 
 ## 데모 미디어
 
-1. gallery/01-result.png
-2. gallery/02-easy-start.png
-3. gallery/03-approval.png
-4. gallery/04-history.png
-5. gallery/05-model-roles.png
+1. gallery/01-cover.png
+2. gallery/02-result.png
+3. gallery/03-easy-start.png
+4. gallery/04-approval.png
+5. gallery/05-history.png
+6. gallery/06-model-roles.png
 
 이미지 설명: gallery/CAPTIONS.md. 공식 폼에는 아직 제출하지 않았습니다.

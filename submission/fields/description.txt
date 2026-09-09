@@ -1,3 +1,6 @@
+1분 소개·데모 보기
+https://ddt-mindcraft.github.io/mindcraft-showcase/?v=12
+
 설정하느라 한참, 같은 설명을 또 한 번.
 정작 내 일은 언제 하죠?
 
@@ -22,5 +25,3 @@ AI 딸깍, 야근 싹뚝.
 준비는 줄이고, 맡긴 일은 확인하고, 다음 일은 더 수월하게.
 
 개발 중 · 실제 앱의 오프라인 샘플 공개(모델 호출 없음).
-1분 소개·실제 화면·현재 지원 범위:
-https://ddt-mindcraft.github.io/mindcraft-showcase/?v=11

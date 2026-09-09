@@ -8,12 +8,12 @@
   },
   "fieldLengths": {
     "title": 24,
-    "description": 597,
+    "description": 588,
     "instructions": 264
   },
   "screenshots": [
     {
-      "file": "gallery/01-result.png",
+      "file": "gallery/02-result.png",
       "title": "자료와 결과, 한눈에",
       "caption": "선택한 자료와 결과 문서를 함께 확인합니다.",
       "source": "C:/ai/ai-dlc-09-09/mindcraft/aidlc-docs/construction/mindcraft/evidence/screenshots/workspace-1440.png",
@@ -26,7 +26,7 @@
       "originalSha256": "862f9b82abac063fbc393c53a1edfb315e2f7ffe659fb774cbdbd72960badd32"
     },
     {
-      "file": "gallery/02-easy-start.png",
+      "file": "gallery/03-easy-start.png",
       "title": "첫 작업은 가볍게",
       "caption": "샘플을 따라 첫 작업을 직접 해봅니다.",
       "source": "C:/ai/ai-dlc-09-09/mindcraft/aidlc-docs/construction/mindcraft/evidence/screenshots/home-1440.png",
@@ -39,7 +39,7 @@
       "originalSha256": "cfea5649c49b3683d630338aed8d3174c5dc14273b8099d250725750e8ab90c9"
     },
     {
-      "file": "gallery/03-approval.png",
+      "file": "gallery/04-approval.png",
       "title": "저장은 확인하고",
       "caption": "저장 경로와 변경 내용을 보고 승인합니다.",
       "source": "C:/ai/ai-dlc-09-09/mindcraft/aidlc-docs/construction/mindcraft/evidence/screenshots/approval-1440.png",
@@ -52,7 +52,7 @@
       "originalSha256": "0447b463ccf5562b5f95f31f4cf8386b4b39ed28c694af79e8041ce1ed0c5b1f"
     },
     {
-      "file": "gallery/04-history.png",
+      "file": "gallery/05-history.png",
       "title": "지난 일은 다음 일로",
       "caption": "작업 기록에서 이전 결과를 다시 엽니다.",
       "source": "C:/ai/ai-dlc-09-09/mindcraft/aidlc-docs/construction/mindcraft/evidence/screenshots/history-1440.png",
@@ -65,7 +65,7 @@
       "originalSha256": "c6e033be1e50af246aaa81c673bf1e00bd517cf6e6cbd5395327487bffaafa89"
     },
     {
-      "file": "gallery/05-model-roles.png",
+      "file": "gallery/06-model-roles.png",
       "title": "모델은 일에 맞게",
       "caption": "일반 작업과 복잡한 계획에 쓸 모델 역할을 설정합니다.",
       "source": "C:/ai/ai-dlc-09-09/mindcraft/aidlc-docs/construction/mindcraft/evidence/screenshots/setup-1440.png",
@@ -97,5 +97,19 @@
   ],
   "copyUpdatedAt": "2026-09-09T02:21:22.332Z",
   "title": "MindCraft | AI 딸깍, 야근 싹뚝",
-  "galleryUpdatedAt": "2026-09-09T02:37:00.947Z"
+  "galleryUpdatedAt": "2026-09-09T02:46:22.235Z",
+  "cover": {
+    "file": "gallery/01-cover.png",
+    "kind": "AI-generated brand concept thumbnail, not a product screenshot",
+    "sha256": "1006de65b50336a0e313eead82d7b1c1e9ddf6f6c9c3542e58c8eec8d93298f5",
+    "bytes": 1508106
+  },
+  "mediaOrder": [
+    "gallery/01-cover.png",
+    "gallery/02-result.png",
+    "gallery/03-easy-start.png",
+    "gallery/04-approval.png",
+    "gallery/05-history.png",
+    "gallery/06-model-roles.png"
+  ]
 }

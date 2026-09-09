@@ -1,0 +1,20 @@
+{
+  "repository": "https://github.com/ddt-mindcraft/mindcraft-showcase",
+  "url": "https://ddt-mindcraft.github.io/mindcraft-showcase/",
+  "commit": "81472c05582d536be4eabebd45a5d5849dc4c572",
+  "files": [
+    "index.html",
+    "style.css",
+    "app.js",
+    "details.html",
+    "details.css",
+    "details.js",
+    "assets/onboarding-concept.mp4",
+    "assets/value-banner-v1.png",
+    "assets/demo-0909/01-result.png",
+    "assets/demo-0909/02-easy-start.png",
+    "assets/demo-0909/03-approval.png",
+    "assets/demo-0909/04-history.png",
+    "assets/demo-0909/05-model-roles.png"
+  ]
+}

@@ -7,15 +7,15 @@
     "tree": "a9e88d9dc2c39c074416b9e8c7f63abb07cf5fbf"
   },
   "fieldLengths": {
-    "title": 29,
-    "description": 1069,
-    "instructions": 322
+    "title": 28,
+    "description": 639,
+    "instructions": 264
   },
   "screenshots": [
     {
       "file": "gallery/01-result.png",
-      "title": "자료에서 결과까지, 한 화면에서",
-      "caption": "선택한 세 가지 자료의 출처와 완성된 문서를 함께 확인합니다. 오프라인 샘플 결과이며 실제 모델이 생성한 문서는 아닙니다.",
+      "title": "자료를 고르면, 결과가 한곳에",
+      "caption": "선택한 자료와 결과 문서를 함께 확인합니다.",
       "source": "C:/ai/ai-dlc-09-09/mindcraft/aidlc-docs/construction/mindcraft/evidence/screenshots/workspace-1440.png",
       "sourceModified": "2026-09-09T01:17:25.919Z",
       "sha256": "862f9b82abac063fbc393c53a1edfb315e2f7ffe659fb774cbdbd72960badd32",
@@ -25,8 +25,8 @@
     },
     {
       "file": "gallery/02-easy-start.png",
-      "title": "전문 용어 대신, 하고 싶은 일부터",
-      "caption": "한국어 작업실에서 요청을 입력하거나 작은 프로젝트 체험으로 시작합니다.",
+      "title": "설정이 막막해도, 작은 일부터",
+      "caption": "한국어 안내와 샘플 체험으로 첫 작업을 시작합니다.",
       "source": "C:/ai/ai-dlc-09-09/mindcraft/aidlc-docs/construction/mindcraft/evidence/screenshots/home-1440.png",
       "sourceModified": "2026-09-09T01:17:18.290Z",
       "sha256": "cfea5649c49b3683d630338aed8d3174c5dc14273b8099d250725750e8ab90c9",
@@ -36,8 +36,8 @@
     },
     {
       "file": "gallery/03-approval.png",
-      "title": "내 파일을 바꾸기 전에, 내가 확인",
-      "caption": "저장할 경로와 변경 내용을 확인하고 이번 작업의 저장을 승인하거나 거부합니다.",
+      "title": "내 파일은, 확인하고 저장",
+      "caption": "저장 경로와 변경 내용을 보고 승인합니다.",
       "source": "C:/ai/ai-dlc-09-09/mindcraft/aidlc-docs/construction/mindcraft/evidence/screenshots/approval-1440.png",
       "sourceModified": "2026-09-09T01:17:26.878Z",
       "sha256": "0447b463ccf5562b5f95f31f4cf8386b4b39ed28c694af79e8041ce1ed0c5b1f",
@@ -47,8 +47,8 @@
     },
     {
       "file": "gallery/04-history.png",
-      "title": "지난 작업을, 다음 시작점으로",
-      "caption": "작업 이력을 검색하고 저장된 실행 결과를 다시 엽니다. 이 화면만으로 지식 재사용의 전체 검증을 주장하지 않습니다.",
+      "title": "지난 일을 다시 설명하지 않도록",
+      "caption": "작업 기록에서 이전 결과를 다시 엽니다.",
       "source": "C:/ai/ai-dlc-09-09/mindcraft/aidlc-docs/construction/mindcraft/evidence/screenshots/history-1440.png",
       "sourceModified": "2026-09-09T01:17:28.667Z",
       "sha256": "c6e033be1e50af246aaa81c673bf1e00bd517cf6e6cbd5395327487bffaafa89",
@@ -58,8 +58,8 @@
     },
     {
       "file": "gallery/05-model-roles.png",
-      "title": "모델은 필요한 역할에 맞게",
-      "caption": "일반 작업·저비용 역할과 계획·복잡한 분석·고성능 역할의 설정 화면입니다. 실제 제공자 연결 성공이나 비용 절감 실측 화면은 아닙니다.",
+      "title": "모델은 일에 맞게",
+      "caption": "일반 작업과 복잡한 계획에 쓸 모델 역할을 설정합니다.",
       "source": "C:/ai/ai-dlc-09-09/mindcraft/aidlc-docs/construction/mindcraft/evidence/screenshots/setup-1440.png",
       "sourceModified": "2026-09-09T01:17:30.335Z",
       "sha256": "fe821dcacdbacb923f90b678e7bba7c157e61723b4839940bd88f7f1fc80c80d",
@@ -84,5 +84,6 @@
       "bytes": 1730232,
       "sha256": "b985b852186ac2ceef44dea8cac0ae5fb43499cef261d3bfecd07e40beb663f6"
     }
-  ]
+  ],
+  "copyUpdatedAt": "2026-09-09T01:39:45.901Z"
 }

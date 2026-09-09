@@ -1,11 +1,11 @@
 {
-  "version": "v1",
-  "tag": "submission-2026-09-09-v1",
-  "archive": "MindCraft-submission-2026-09-09.zip",
-  "bytes": 129056875,
-  "sha256": "1fa956848732d8513f561e3a6ad33ef38464f1c2abeec669309ef771cf010a30",
-  "title": "MindCraft | 처음은 쉽게, 다음 일은 이어서",
-  "summary": "실제 GUI 데모와 최초 제출 패키지",
-  "release": "https://github.com/ddt-mindcraft/mindcraft-showcase/releases/tag/submission-2026-09-09-v1",
-  "download": "https://github.com/ddt-mindcraft/mindcraft-showcase/releases/download/submission-2026-09-09-v1/MindCraft-submission-2026-09-09.zip"
+  "version": "v2",
+  "tag": "submission-2026-09-09-v2",
+  "archive": "MindCraft-submission-2026-09-09-v2.zip",
+  "bytes": 136925865,
+  "sha256": "33858082545fb9a57ec4adcce03459d395589ab5c6152cada9f097fd42646962",
+  "title": "MindCraft | 비개발자도 시작하는 개인 AI",
+  "summary": "접근성 중심 소개와 이미지 배너",
+  "release": "https://github.com/ddt-mindcraft/mindcraft-showcase/releases/tag/submission-2026-09-09-v2",
+  "download": "https://github.com/ddt-mindcraft/mindcraft-showcase/releases/download/submission-2026-09-09-v2/MindCraft-submission-2026-09-09-v2.zip"
 }

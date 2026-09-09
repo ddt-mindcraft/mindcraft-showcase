@@ -1,0 +1,9 @@
+# 핵심 가치 이미지 배너
+
+제작: 내장 image_gen 도구. 기존 hero-v2.png는 캐릭터·스타일 참조.
+웹 문구는 선명도와 접근성을 위해 HTML로 별도 표시.
+이미지 경로: site/assets/value-banner-v1.png
+
+## 최종 프롬프트
+
+Use case: ads-marketing. Create a polished wide landscape website masthead illustration for MindCraft, an approachable personal AI application for office workers unfamiliar with agent configuration. Aspect ratio 3:1 panoramic. Reference image is STYLE AND CHARACTER reference only, recompose completely. Keep original purple-shirt dark square-haired voxel office character, block-built Minecraft-like aesthetic, sophisticated soft cinematic 3D lighting. Composition: LEFT 48 percent almost empty deep midnight aubergine smooth atmospheric background for large white HTML headline; no foreground objects on left. RIGHT 52 percent a charming luminous miniature voxel office island: one friendly square-headed office worker with purple shirt comfortably using a laptop on a simple wooden desk; an orderly three-step purple block walkway carries a small golden document block with a visible simple check symbol toward a small shelf of neatly stored documents and one green sprout, communicating easy start, checked work, accumulated knowledge. Make the worker large enough to recognize at banner scale, few clear objects, no clutter. Warm amber light and violet highlights, tasteful lush green accents. Strong contrast between spacious dark headline zone and inviting warm office island. Entire background dark purple with natural gradual lighting, no cream background. Modern premium game key art, tactile block geometry, welcoming and professional rather than childish. Output only the standalone banner image. No letters, no words, no logos, no watermarks, no real application screenshot, no additional panels or border. All important illustrated objects within right half safe region, leave margins.

@@ -1,12 +1,12 @@
 # MindCraft 제출 패키지 · 2026-09-09
 
-핵심 메시지: **처음은 쉽게, 맡긴 일은 확인하고, 다음 일로 이어서.**
+핵심 메시지: **설정부터 막막했던 비개발자도, 자기 업무부터 시작하는 개인 AI.**
 
 ## 제출 필드에 복사
 
-- 제목: fields/title.txt (29/40자)
-- 설명: fields/description.txt (1069/2000자)
-- 실행 안내: fields/run-instructions.txt (322/500자)
+- 제목: fields/title.txt (28/40자)
+- 설명: fields/description.txt (639/2000자)
+- 실행 안내: fields/run-instructions.txt (264/500자)
 - 갤러리: gallery/의 PNG 5장을 번호 순서대로. 설명은 gallery/CAPTIONS.md.
 - 기본 소스 ZIP: artifacts/MindCraft-0.1.0-source.zip — 동봉 실행 파일과 대응하는 소스.
 - 실행 파일: artifacts/MindCraft-0.1.0-windows-x64.exe — 별도 전달용.

@@ -20,4 +20,10 @@ tabs.forEach((b,i)=>{b.addEventListener('click',()=>selectFeature(i));b.addEvent
 $('#prev-feature').addEventListener('click',()=>selectFeature(current-1));$('#next-feature').addEventListener('click',()=>selectFeature(current+1));
 $('#interactive').addEventListener('click',e=>{const b=e.target.closest('button');if(!b)return;if(b.id==='onboard-next'){onboard=(onboard+1)%3;draw();}if(b.dataset.workflow!==undefined){workflow=Number(b.dataset.workflow);draw();}if(b.id==='single-model'||b.id==='dual-model'){dual=b.id==='dual-model';draw();}});
 $('#interactive').addEventListener('change',e=>{if(e.target.id==='use-knowledge')$('#knowledge-result').textContent=e.target.checked?'선택한 작성 기준을 이번 요청의 자료로 포함합니다.':'선택을 해제했습니다. 이전 기준은 포함하지 않습니다.';});
-const dialog=$('#video-dialog'),video=$('#concept-video');$('#open-video').addEventListener('click',()=>{if(!video.getAttribute('src'))video.src=video.dataset.src;video.muted=true;dialog.showModal();video.play().catch(()=>{});});$('#close-video').addEventListener('click',()=>dialog.close());dialog.addEventListener('close',()=>{video.pause();$('#open-video').focus();});$('#video-to-feature').addEventListener('click',()=>dialog.close());dialog.addEventListener('click',e=>{if(e.target===dialog){const r=dialog.getBoundingClientRect();if(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom)dialog.close();}});
+const video=$('#concept-video');
+video.muted=true;
+const motion=window.matchMedia('(prefers-reduced-motion: reduce)');
+if(!motion.matches)video.play().catch(()=>{});
+motion.addEventListener('change',e=>{if(e.matches)video.pause();});
+document.addEventListener('visibilitychange',()=>{if(document.hidden)video.pause();});
+video.addEventListener('error',()=>{$('#video-fallback').hidden=false;});

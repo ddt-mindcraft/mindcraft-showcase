@@ -23,7 +23,9 @@ $('#interactive').addEventListener('change',e=>{if(e.target.id==='use-knowledge'
 const video=$('#concept-video');
 video.muted=true;
 const motion=window.matchMedia('(prefers-reduced-motion: reduce)');
-// Both videos start only when the viewer presses play.
+// The hero animation starts silently; the product demo starts on request.
+video.autoplay=!motion.matches;
+if(motion.matches)video.pause();else video.play().catch(()=>{});
 motion.addEventListener('change',e=>{if(e.matches)video.pause();});
 document.addEventListener('visibilitychange',()=>{if(document.hidden)video.pause();});
 video.addEventListener('error',()=>{$('#video-fallback').hidden=false;});

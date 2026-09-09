@@ -1,14 +1,14 @@
 # MindCraft | AI 딸깍, 야근 싹뚝
 
-[1분 소개·데모](https://ddt-mindcraft.github.io/mindcraft-showcase/?v=14) · [최종 r3 다운로드](https://github.com/ddt-mindcraft/mindcraft-showcase/releases/tag/submission-2026-09-09-v10)
+[제품 소개](https://ddt-mindcraft.github.io/mindcraft-showcase/?v=15) · [최종 r3 다운로드](https://github.com/ddt-mindcraft/mindcraft-showcase/releases/tag/submission-2026-09-09-v11)
 
-9/9 AI-DLC 프로젝트의 승인된 r3 첫 릴리스를 기준으로 만든 **제출 v10**입니다.
+9/9 AI-DLC 프로젝트의 승인된 r3 첫 릴리스를 기준으로 만든 **제출본 1.0 (자료 이력 v11)**입니다.
 
 ## 지금 제출할 파일
 
 | 제출 항목 | 파일 |
 | --- | --- |
-| 소스 ZIP | **artifacts/MindCraft-0.1.0-submission-source.zip** |
+| 소스 ZIP | **artifacts/MindCraft-submission-v1.0-source.zip** |
 | 대표 이미지 | **gallery/01-cover.png** 한 장 |
 | 실행 파일 | artifacts/MindCraft-0.1.0-windows-x64.exe |
 | 제목·설명·실행 안내 | SUBMISSION.md 또는 fields/ |
@@ -30,3 +30,9 @@ Windows x64에서 EXE를 쓰기 가능한 별도 폴더에 놓고 실행하세�
 - `manifest.json`: 배포물 해시와 캡처 출처.
 
 제목과 핵심 컨셉 5가지는 유지했습니다. 쉬운 시작, 작업 워크플로우, 지식 재사용, 모델 역할 배정, Pi 기반입니다. 문서 업무의 자료 확인·작성·승인·기록·재사용을 하나의 제품 흐름으로 제공합니다. 세부 지원 범위는 검증 자료에서 확인할 수 있습니다.
+
+## 버전 표기
+
+제출용 소스 묶음은 **1.0**입니다. 앱의 package.json·검증된 EXE 버전은 **0.1.0**이며 기존 최종 r3 배포물과 같습니다. 제출 파일의 버전과 앱 버전을 구분하고, 검증되지 않은 바이너리 재명명이나 재빌드는 하지 않았습니다.
+
+실행 링크(데모): https://ddt-mindcraft.github.io/mindcraft-showcase/?v=15#product-film

@@ -5,7 +5,7 @@
   "fullFinalAidlcDocs": 147,
   "rootScreenshots": 3,
   "officialGalleryImages": 1,
-  "firstLinkCorrect": true,
+  "demoExecutionLinkCorrect": true,
   "readmeLinksExist": true,
   "credentialPatternFindings": [],
   "scope": "tracked source archive high-confidence token/private-key patterns and forbidden paths; not a full security certification",

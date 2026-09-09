@@ -1,12 +1,12 @@
 {
-  "version": "v10",
-  "tag": "submission-2026-09-09-v10",
-  "archive": "MindCraft-submission-2026-09-09-v10.zip",
-  "bytes": 149440795,
-  "sha256": "18587bf74235a4786aee7ce6e763e593bcd4a140598eb4ab168f583e97f3620e",
+  "version": "v11",
+  "tag": "submission-2026-09-09-v11",
+  "archive": "MindCraft-submission-v1.0.zip",
+  "bytes": 155089903,
+  "sha256": "ba565a64761bd1625f41c9d62a8930a81caa74c225f55235b3c17c17df16015b",
   "title": "MindCraft | AI 딸깍, 야근 싹뚝",
-  "summary": "완성된 문서 작업 경험을 중심으로 소개 문구 정리",
-  "release": "https://github.com/ddt-mindcraft/mindcraft-showcase/releases/tag/submission-2026-09-09-v10",
-  "download": "https://github.com/ddt-mindcraft/mindcraft-showcase/releases/download/submission-2026-09-09-v10/MindCraft-submission-2026-09-09-v10.zip",
-  "releaseNote": "9/9 승인된 r3 첫 릴리스 기준입니다.\n\n- 소스 업로드: MindCraft-0.1.0-submission-source.zip (루트 README, src, 전체 최종 aidlc-docs 147개, 대표 캡처 3장)\n- 실행: MindCraft-0.1.0-windows-x64.exe (최종 build-z9OSa3, 코드 서명 없음)\n- 전체 보관: MindCraft-submission-2026-09-09-v10.zip\n- 갤러리: 전체 패키지의 gallery/01-cover.png 한 장\n\n문서 분석·작성, 출처 확인, 승인 저장, 기록·지식 재사용을 제공합니다. 전체 자동 설계 리뷰·실행 테스트, 명령 실행, 새 Windows 환경 전면 검증은 후속입니다. 영상은 이전 개발 UI의 코치마크 설명이며, 최종 실행 근거는 새 EXE 캡처입니다."
+  "summary": "제출본 1.0 · 상단 애니메이션·데모 강조·실행 링크 정리",
+  "release": "https://github.com/ddt-mindcraft/mindcraft-showcase/releases/tag/submission-2026-09-09-v11",
+  "download": "https://github.com/ddt-mindcraft/mindcraft-showcase/releases/download/submission-2026-09-09-v11/MindCraft-submission-v1.0.zip",
+  "releaseNote": "9/9 승인된 r3 첫 릴리스 기준입니다.\n\n- 소스 업로드: MindCraft-submission-v1.0-source.zip (루트 README, src, 전체 최종 aidlc-docs 147개, 대표 캡처 3장)\n- 실행: MindCraft-0.1.0-windows-x64.exe (최종 build-z9OSa3, 코드 서명 없음)\n- 전체 보관: MindCraft-submission-v1.0.zip\n- 갤러리: 전체 패키지의 gallery/01-cover.png 한 장\n\n문서 분석·작성, 출처 확인, 승인 저장, 기록·지식 재사용을 제공합니다. 전체 자동 설계 리뷰·실행 테스트, 명령 실행, 새 Windows 환경 전면 검증은 후속입니다. 영상은 이전 개발 UI의 코치마크 설명이며, 최종 실행 근거는 새 EXE 캡처입니다."
 }

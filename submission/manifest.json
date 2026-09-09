@@ -1,6 +1,6 @@
 {
   "preparedAt": "2026-09-09T04:38:38.643460+00:00",
-  "submissionVersion": "v10",
+  "submissionVersion": "v11",
   "title": "MindCraft | AI 딸깍, 야근 싹뚝",
   "sourceSnapshot": "04284c1c98b80fa3fece9fd6d6c79cec7fba6683",
   "releaseSource": {
@@ -8,7 +8,7 @@
     "tree": "bcc9d01fda8f9e01f913f69c7456153b4556986b"
   },
   "lifecycle": "r3 COMPLETE / AP-MVP-BT-001",
-  "evaluationSource": "artifacts/MindCraft-0.1.0-submission-source.zip",
+  "evaluationSource": "artifacts/MindCraft-submission-v1.0-source.zip",
   "artifacts": [
     {
       "file": "artifacts/MindCraft-0.1.0-source.zip",
@@ -16,14 +16,14 @@
       "sha256": "6d0584e858c93dec83c706cf9ef414b21286f08f2a0509acbe38cbb2459ad50e"
     },
     {
-      "file": "artifacts/MindCraft-0.1.0-submission-source.zip",
-      "bytes": 3282062,
-      "sha256": "f7e775b16894bdafa5ec9c4327091e13f1540fea871f3444649cf3ed1b30bc9a"
-    },
-    {
       "file": "artifacts/MindCraft-0.1.0-windows-x64.exe",
       "bytes": 118840069,
       "sha256": "6acc01d3dc82032a9c7214bceef44cada5a67d51524708945fda4f31e3e2b150"
+    },
+    {
+      "file": "artifacts/MindCraft-submission-v1.0-source.zip",
+      "bytes": 3282174,
+      "sha256": "dc0f40d585c7ab3e6be2f9606f9b7779c4d93146767e962b84e1d06d2440cea7"
     }
   ],
   "gallery": [
@@ -63,8 +63,8 @@
   ],
   "fieldLengths": {
     "title": 24,
-    "description": 585,
-    "instructions": 256
+    "description": 515,
+    "instructions": 319
   },
   "sourceVerification": {
     "sourceCommit": "04284c1c98b80fa3fece9fd6d6c79cec7fba6683",
@@ -105,10 +105,12 @@
   },
   "exeAuthenticode": "NotSigned",
   "video": {
-    "file": "website/assets/product-demo-v2.mp4",
-    "sha256": "2f015e35acdbfe50ee7b9e2f1f10760f31006b1a1575188b8bd96a9fe0d406e0",
+    "file": "website/assets/product-demo-v3.mp4",
+    "sha256": "f918000eef9b35baa3b36e2f667436617c3de81480e32532bd786922fa239f90",
     "durationSeconds": 49.150000000000006,
-    "appFootage": "earlier development version",
-    "generatedVideoUsed": false
-  }
+    "appFootage": "development GUI offline sample",
+    "highlightPolicy": "source-coordinate overlay only during freeze"
+  },
+  "submissionPackageVersion": "1.0",
+  "applicationVersion": "0.1.0"
 }

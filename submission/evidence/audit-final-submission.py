@@ -3,7 +3,7 @@ import zipfile,json,hashlib,re
 B=Path.cwd();P=B/'submission-2026-09-09';errors=[]
 f=json.loads((P/'fields/submission-fields.json').read_text(encoding='utf-8'));m=json.loads((P/'manifest.json').read_text(encoding='utf-8'))
 assert f['media']==['gallery/01-cover.png'] and len(list((P/'gallery').glob('*.png')))==1
-assert f['description'].splitlines()[1]==f['introductionUrl'] and len(f['instructions'])<500
+assert f['executionUrl'].endswith('#product-film') and not f['description'].startswith('http') and len(f['instructions'])<500
 assert f['title']=='MindCraft | AI 딸깍, 야근 싹뚝'
 for a in m['artifacts']:
  p=P/a['file'];assert p.stat().st_size==a['bytes'] and hashlib.sha256(p.read_bytes()).hexdigest()==a['sha256']
@@ -32,6 +32,6 @@ for p in [P/'SUBMISSION.md',P/'README.md',B/'site/index.html',B/'site/details.ht
  text=p.read_text(encoding='utf-8')
  for stale in ['코드 생성 진행 중','실제 모델 연결 및 전체 요구사항 검증은 진행 중','최신 화면과 동봉 EXE에는 UI 차이','이 페이지에서 다운로드는 제공하지 않습니다']:
   assert stale not in text,(str(p),stale)
-summary={'status':'PASS','sourceZipIntegrity':True,'artifactHashesMatch':True,'fullFinalAidlcDocs':147,'rootScreenshots':3,'officialGalleryImages':1,'firstLinkCorrect':True,'readmeLinksExist':True,'credentialPatternFindings':findings,'scope':'tracked source archive high-confidence token/private-key patterns and forbidden paths; not a full security certification','exeAuthenticode':'NotSigned','finalGuiSmoke':json.loads((P/'evidence/capture-report.json').read_text())['status']}
+summary={'status':'PASS','sourceZipIntegrity':True,'artifactHashesMatch':True,'fullFinalAidlcDocs':147,'rootScreenshots':3,'officialGalleryImages':1,'demoExecutionLinkCorrect':True,'readmeLinksExist':True,'credentialPatternFindings':findings,'scope':'tracked source archive high-confidence token/private-key patterns and forbidden paths; not a full security certification','exeAuthenticode':'NotSigned','finalGuiSmoke':json.loads((P/'evidence/capture-report.json').read_text())['status']}
 (P/'evidence/submission-audit.json').write_text(json.dumps(summary,ensure_ascii=False,indent=2),encoding='utf-8')
 print(json.dumps(summary,ensure_ascii=False))

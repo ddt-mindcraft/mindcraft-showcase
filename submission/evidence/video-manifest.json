@@ -164,5 +164,7 @@
       "duration": 7.600000000000001
     }
   ],
-  "generatedVideoUsed": false
+  "generatedVideoUsed": false,
+  "highlightPolicy": "Draw on source coordinates before crop/scale; visible only during initial frozen explanation; removed before motion",
+  "sourceVideo": "product-demo-v1/raw-session.webm; development GUI; offline fixture"
 }

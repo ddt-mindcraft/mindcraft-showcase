@@ -1,6 +1,6 @@
 {
   "preparedAt": "2026-09-09T04:38:38.643460+00:00",
-  "submissionVersion": "v9",
+  "submissionVersion": "v10",
   "title": "MindCraft | AI 딸깍, 야근 싹뚝",
   "sourceSnapshot": "04284c1c98b80fa3fece9fd6d6c79cec7fba6683",
   "releaseSource": {
@@ -63,8 +63,8 @@
   ],
   "fieldLengths": {
     "title": 24,
-    "description": 623,
-    "instructions": 317
+    "description": 585,
+    "instructions": 256
   },
   "sourceVerification": {
     "sourceCommit": "04284c1c98b80fa3fece9fd6d6c79cec7fba6683",

@@ -1,6 +1,6 @@
 # MindCraft | AI 딸깍, 야근 싹뚝
 
-[제품 소개](https://ddt-mindcraft.github.io/mindcraft-showcase/?v=17) · [Windows 실행 파일](https://github.com/ddt-mindcraft/mindcraft-showcase/releases/download/submission-2026-09-09-v12/MindCraft-0.1.0-windows-x64.exe) · [평가용 소스 ZIP](https://github.com/ddt-mindcraft/mindcraft-showcase/releases/download/submission-2026-09-09-v12/MindCraft-submission-v1.0.1-source.zip)
+[제품 소개](https://ddt-mindcraft.github.io/mindcraft-showcase/?v=18) · [Windows 실행 파일](https://github.com/ddt-mindcraft/mindcraft-showcase/releases/download/submission-2026-09-09-v12/MindCraft-0.1.0-windows-x64.exe) · [평가용 소스 ZIP](https://github.com/ddt-mindcraft/mindcraft-showcase/releases/download/submission-2026-09-09-v12/MindCraft-submission-v1.0.1-source.zip)
 
 ## 제출 필드
 
@@ -29,7 +29,7 @@ AI 딸깍, 야근 싹뚝.
 실행 링크에서 데모 영상과 실제 실행 가능한 Windows EXE를 함께 제공합니다.
 
 1. 데모 보기
-링크를 열고 약 47초 영상으로 사용 흐름을 확인하세요.
+링크를 열고 약 50초 영상으로 사용 흐름을 확인하세요.
 
 2. 직접 실행하기
 Windows 실행 파일을 내려받아 쓰기 가능한 별도 폴더에 놓고 실행하세요. (Windows x64)
@@ -46,7 +46,7 @@ Windows 실행 파일을 내려받아 쓰기 가능한 별도 폴더에 놓고 �
 
 - **소스 ZIP**: `artifacts/MindCraft-submission-v1.0.1-source.zip` 하나. 전체 제출 패키지와 GitHub 자동 생성 Source code(zip)는 이 항목에 올리지 않습니다.
 - **갤러리**: `gallery/01-cover.png` 한 장. 실제 데모 이미지는 소개 페이지에 있습니다.
-- **실행 URL (데모·Windows EXE)**: https://ddt-mindcraft.github.io/mindcraft-showcase/?v=17#product-film
-- **소개 URL**: https://ddt-mindcraft.github.io/mindcraft-showcase/?v=17
+- **실행 URL (데모·Windows EXE)**: https://ddt-mindcraft.github.io/mindcraft-showcase/?v=18#product-film
+- **소개 URL**: https://ddt-mindcraft.github.io/mindcraft-showcase/?v=18
 
 현재 지원 범위와 검증 근거는 [STATUS-AND-EVIDENCE.md](STATUS-AND-EVIDENCE.md), 최종 점검 사항은 [IMPROVEMENTS.md](IMPROVEMENTS.md)를 확인하세요.

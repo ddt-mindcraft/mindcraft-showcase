@@ -37,3 +37,18 @@ video.addEventListener('play',()=>productVideo.pause());
 document.addEventListener('visibilitychange',()=>{if(document.hidden)productVideo.pause();});
 
 document.querySelectorAll("[data-overview]").forEach(a=>a.addEventListener("click",()=>selectFeature(Number(a.dataset.overview))));
+
+// Responsive guided demo v5: the two cuts share the same frame timeline.
+(()=>{
+ const video=document.querySelector('#product-video[data-mobile-src]');if(!video)return;
+ const narrow=matchMedia('(max-width: 700px)');let generation=0;
+ const select=()=>{
+  const portrait=narrow.matches;const src=portrait?video.dataset.mobileSrc:video.dataset.desktopSrc;
+  video.dataset.layout=portrait?'portrait':'landscape';video.poster=portrait?video.dataset.mobilePoster:video.dataset.desktopPoster;
+  if(video.getAttribute('src')===src)return;
+  const time=video.currentTime||0,playing=!video.paused,token=++generation;
+  video.addEventListener('loadedmetadata',()=>{if(token!==generation)return;video.currentTime=Math.min(time,Math.max(0,video.duration-.05));if(playing)video.play().catch(()=>{});},{once:true});
+  video.src=src;video.load();
+ };
+ narrow.addEventListener('change',select);select();
+})();

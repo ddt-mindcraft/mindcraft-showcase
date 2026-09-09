@@ -1,6 +1,6 @@
 {
-  "preparedAt": "2026-09-09T05:34:21.708843+00:00",
-  "submissionVersion": "v12",
+  "preparedAt": "2026-09-09T06:34:09.603856+00:00",
+  "submissionVersion": "v13",
   "title": "MindCraft | AI 딸깍, 야근 싹뚝",
   "sourceSnapshot": "04284c1c98b80fa3fece9fd6d6c79cec7fba6683",
   "releaseSource": {
@@ -119,15 +119,44 @@
   },
   "exeAuthenticode": "NotSigned",
   "video": {
-    "file": "website/assets/product-demo-v4.mp4",
-    "sha256": "d10299018736edb60fded9ad7847835059dd1cc03be1cb457ac7f56063126dde",
-    "durationSeconds": 46.20000000000001,
-    "appFootage": "development GUI offline sample",
-    "highlightPolicy": "source-coordinate overlay only during freeze"
+    "file": "website/assets/product-demo-v5.mp4",
+    "mobileFile": "website/assets/product-demo-v5-mobile.mp4",
+    "durationSeconds": 50.1,
+    "appFootage": "Earlier development GUI offline sample, not final r3 EXE",
+    "highlightPolicy": "Explicit frozen frames; removed 4 frames before motion",
+    "verification": "evidence/video/product-demo-v5/verification.json",
+    "outputs": {
+      "product-demo-v5.mp4": {
+        "frames": 1503,
+        "duration": 50.1,
+        "fps": 30.0,
+        "size": [
+          1920,
+          1080
+        ],
+        "bytes": 2011306,
+        "sha256": "42d4645072be1a96667475143a754a93016ad78699e388b0b9d341b26849f5aa",
+        "everyFrameChecked": true,
+        "freezeAndHighlightTiming": "PASS"
+      },
+      "product-demo-v5-mobile.mp4": {
+        "frames": 1503,
+        "duration": 50.1,
+        "fps": 30.0,
+        "size": [
+          1080,
+          1440
+        ],
+        "bytes": 1578499,
+        "sha256": "a2c81fc6c2afeabdac774833fe14d4fe9d262aa6cfeb763545c84c9cf8e7d9bb",
+        "everyFrameChecked": true,
+        "freezeAndHighlightTiming": "PASS"
+      }
+    }
   },
-  "submissionPackageVersion": "1.0.1",
+  "submissionPackageVersion": "1.0.2",
   "applicationVersion": "0.1.0",
-  "websiteRevision": 17,
+  "websiteRevision": 18,
   "heroVideo": {
     "sourceFile": "최종본-중간화질.mp4",
     "file": "website/assets/hero-final-v2.mp4",

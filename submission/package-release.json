@@ -1,12 +1,12 @@
 {
-  "version": "v12",
-  "tag": "submission-2026-09-09-v12",
-  "archive": "MindCraft-submission-v1.0.1.zip",
-  "bytes": 158073609,
-  "sha256": "09860c3406e51faf7e4bd6aefe2649e58fdba2b4a7bf0e48d665fd6a917f956e",
+  "version": "v13",
+  "tag": "submission-2026-09-09-v13",
+  "archive": "MindCraft-submission-v1.0.2.zip",
+  "bytes": 175337631,
+  "sha256": "fbf350a98c03e5423422d57f7ffb7c7bf8dc7b1f411ed2629146a2c40d7f2eb7",
   "title": "MindCraft | AI 딸깍, 야근 싹뚝",
-  "summary": "제출본 1.0.1 · 핵심 소개·지식 재사용 실증·소스 안내 개선",
-  "release": "https://github.com/ddt-mindcraft/mindcraft-showcase/releases/tag/submission-2026-09-09-v12",
-  "download": "https://github.com/ddt-mindcraft/mindcraft-showcase/releases/download/submission-2026-09-09-v12/MindCraft-submission-v1.0.1.zip",
-  "releaseNote": "완성된 제출 자료 1.0.1입니다. 검증된 앱은 0.1.0 / r3 / build-z9OSa3입니다.\n\n- 소스 업로드: MindCraft-submission-v1.0.1-source.zip\n- Windows 실행: MindCraft-0.1.0-windows-x64.exe\n- 전체 자료 보관: MindCraft-submission-v1.0.1.zip\n- 갤러리: 전체 자료의 gallery/01-cover.png 한 장\n\n핵심 5가지를 앞쪽에 배치하고 실제 작업 흐름으로 설명을 통일했습니다. 최종 EXE에서 지식 보관·선택·새 요청 활용을 검증한 캡처 2장을 추가했습니다. 영상 전환과 평가용 README도 정리했습니다. AI-DLC 문서 147개 전체를 최종 Git 원문과 대조했습니다.\n\n[소개와 데모](https://ddt-mindcraft.github.io/mindcraft-showcase/?v=16) · [실행 환경·검증 기록](https://github.com/ddt-mindcraft/mindcraft-showcase/blob/main/submission/STATUS-AND-EVIDENCE.md)"
+  "summary": "제출본 1.0.2 · 데모 강조 정렬·정지 시점 수정과 모바일 안내",
+  "release": "https://github.com/ddt-mindcraft/mindcraft-showcase/releases/tag/submission-2026-09-09-v13",
+  "download": "https://github.com/ddt-mindcraft/mindcraft-showcase/releases/download/submission-2026-09-09-v13/MindCraft-submission-v1.0.2.zip",
+  "releaseNote": "50.1초 제품 데모 v5의 실제 정지 프레임·장면별 강조 좌표·강조 해제 시점을 수정했습니다. 모바일 확대판과 설명을 추가했습니다. 두 영상 총 3,006프레임 및 브라우저 재생·탐색·반응형 전환 검증을 통과했습니다.\n\n검증된 앱 0.1.0 / r3와 평가용 소스 ZIP 1.0.1은 기존 v12 배포물을 유지합니다. 영상은 이전 개발 GUI의 오프라인 샘플이며 최종 EXE 검증 증거와 구분합니다.\n\n[소개와 데모](https://ddt-mindcraft.github.io/mindcraft-showcase/?v=18#product-film)"
 }

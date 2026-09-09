@@ -1,0 +1,23 @@
+{
+  "desktop": {
+    "src": "http://127.0.0.1:52876/assets/product-demo-v5.mp4",
+    "duration": 50.1,
+    "width": 1920,
+    "height": 1080,
+    "paused": true
+  },
+  "mobile": {
+    "src": "http://127.0.0.1:52876/assets/product-demo-v5-mobile.mp4",
+    "width": 1080,
+    "height": 1440,
+    "time": 22,
+    "paused": true,
+    "boxWidth": 352,
+    "boxHeight": 469.328125,
+    "poster": "http://127.0.0.1:52876/assets/product-demo-v5-mobile.jpg"
+  },
+  "responsiveTimePreserved": true,
+  "playbackAndSeeking": true,
+  "noJSAlternative": true,
+  "pageErrors": []
+}

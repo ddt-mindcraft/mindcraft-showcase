@@ -1,0 +1,74 @@
+[
+  {
+    "scene": 0,
+    "method": "current",
+    "sourceSeconds": 0.6499999999999999,
+    "requestedHold": 2.4,
+    "expectedSeconds": 3.05,
+    "frames": 19,
+    "actualSeconds": 0.6333
+  },
+  {
+    "scene": 0,
+    "method": "fps-before-pad",
+    "sourceSeconds": 0.6499999999999999,
+    "requestedHold": 2.4,
+    "expectedSeconds": 3.05,
+    "frames": 91,
+    "actualSeconds": 3.0333
+  },
+  {
+    "scene": 1,
+    "method": "current",
+    "sourceSeconds": 6.0,
+    "requestedHold": 1.4,
+    "expectedSeconds": 7.4,
+    "frames": 180,
+    "actualSeconds": 6.0
+  },
+  {
+    "scene": 1,
+    "method": "fps-before-pad",
+    "sourceSeconds": 6.0,
+    "requestedHold": 1.4,
+    "expectedSeconds": 7.4,
+    "frames": 222,
+    "actualSeconds": 7.4
+  },
+  {
+    "scene": 4,
+    "method": "current",
+    "sourceSeconds": 2.349999999999998,
+    "requestedHold": 2.6,
+    "expectedSeconds": 4.9499999999999975,
+    "frames": 71,
+    "actualSeconds": 2.3667
+  },
+  {
+    "scene": 4,
+    "method": "fps-before-pad",
+    "sourceSeconds": 2.349999999999998,
+    "requestedHold": 2.6,
+    "expectedSeconds": 4.9499999999999975,
+    "frames": 149,
+    "actualSeconds": 4.9667
+  },
+  {
+    "scene": 5,
+    "method": "current",
+    "sourceSeconds": 7.299999999999997,
+    "requestedHold": 1,
+    "expectedSeconds": 8.299999999999997,
+    "frames": 218,
+    "actualSeconds": 7.2667
+  },
+  {
+    "scene": 5,
+    "method": "fps-before-pad",
+    "sourceSeconds": 7.299999999999997,
+    "requestedHold": 1,
+    "expectedSeconds": 8.299999999999997,
+    "frames": 248,
+    "actualSeconds": 8.2667
+  }
+]

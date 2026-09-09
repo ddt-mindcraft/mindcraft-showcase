@@ -1,0 +1,224 @@
+{
+  "product-demo-v5.mp4": {
+    "frames": 1503,
+    "duration": 50.1,
+    "fps": 30.0,
+    "size": [
+      1920,
+      1080
+    ],
+    "bytes": 2011306,
+    "sha256": "42d4645072be1a96667475143a754a93016ad78699e388b0b9d341b26849f5aa",
+    "everyFrameChecked": true,
+    "freezeAndHighlightTiming": "PASS",
+    "shots": [
+      {
+        "tag": "샘플 체험",
+        "guidedFrames": 68,
+        "clearFrames": 127,
+        "maxFreezeDifference": 0.0023878545813738753,
+        "minGuidePixels": 528,
+        "maxClearPixels": 0
+      },
+      {
+        "tag": "참고 자료 3개",
+        "guidedFrames": 68,
+        "clearFrames": 4,
+        "maxFreezeDifference": 0.014400137430479503,
+        "minGuidePixels": 348,
+        "maxClearPixels": 0
+      },
+      {
+        "tag": "자료 사용 확인",
+        "guidedFrames": 56,
+        "clearFrames": 76,
+        "maxFreezeDifference": 0.028783096051021067,
+        "minGuidePixels": 233,
+        "maxClearPixels": 0
+      },
+      {
+        "tag": "작성된 결과 문서",
+        "guidedFrames": 71,
+        "clearFrames": 136,
+        "maxFreezeDifference": 0.21857888294788377,
+        "minGuidePixels": 345,
+        "maxClearPixels": 0
+      },
+      {
+        "tag": "결과에 참고한 자료",
+        "guidedFrames": 71,
+        "clearFrames": 4,
+        "maxFreezeDifference": 0.021391913075221713,
+        "minGuidePixels": 404,
+        "maxClearPixels": 0
+      },
+      {
+        "tag": "저장 시작",
+        "guidedFrames": 56,
+        "clearFrames": 47,
+        "maxFreezeDifference": 0.18738645880306642,
+        "minGuidePixels": 128,
+        "maxClearPixels": 0
+      },
+      {
+        "tag": "저장할 파일 경로",
+        "guidedFrames": 68,
+        "clearFrames": 4,
+        "maxFreezeDifference": 0.02500805256715841,
+        "minGuidePixels": 676,
+        "maxClearPixels": 0
+      },
+      {
+        "tag": "저장 내용 미리 보기",
+        "guidedFrames": 50,
+        "clearFrames": 43,
+        "maxFreezeDifference": 0.12544825957181815,
+        "minGuidePixels": 197,
+        "maxClearPixels": 0
+      },
+      {
+        "tag": "저장 대상과 변경 내용",
+        "guidedFrames": 86,
+        "clearFrames": 4,
+        "maxFreezeDifference": 0.034744143099486785,
+        "minGuidePixels": 565,
+        "maxClearPixels": 0
+      },
+      {
+        "tag": "확인 후 저장 승인",
+        "guidedFrames": 50,
+        "clearFrames": 52,
+        "maxFreezeDifference": 0.07666043934806416,
+        "minGuidePixels": 148,
+        "maxClearPixels": 0
+      },
+      {
+        "tag": "작업 기록 메뉴",
+        "guidedFrames": 50,
+        "clearFrames": 60,
+        "maxFreezeDifference": 0.00343576198758831,
+        "minGuidePixels": 184,
+        "maxClearPixels": 0
+      },
+      {
+        "tag": "이전 결과 다시 열기",
+        "guidedFrames": 62,
+        "clearFrames": 100,
+        "maxFreezeDifference": 0.010869891988232514,
+        "minGuidePixels": 144,
+        "maxClearPixels": 0
+      }
+    ]
+  },
+  "product-demo-v5-mobile.mp4": {
+    "frames": 1503,
+    "duration": 50.1,
+    "fps": 30.0,
+    "size": [
+      1080,
+      1440
+    ],
+    "bytes": 1578499,
+    "sha256": "a2c81fc6c2afeabdac774833fe14d4fe9d262aa6cfeb763545c84c9cf8e7d9bb",
+    "everyFrameChecked": true,
+    "freezeAndHighlightTiming": "PASS",
+    "shots": [
+      {
+        "tag": "샘플 체험",
+        "guidedFrames": 68,
+        "clearFrames": 127,
+        "maxFreezeDifference": 0.0033853151397011047,
+        "minGuidePixels": 574,
+        "maxClearPixels": 0
+      },
+      {
+        "tag": "참고 자료 3개",
+        "guidedFrames": 68,
+        "clearFrames": 4,
+        "maxFreezeDifference": 0.0043079922027290446,
+        "minGuidePixels": 553,
+        "maxClearPixels": 0
+      },
+      {
+        "tag": "자료 사용 확인",
+        "guidedFrames": 56,
+        "clearFrames": 76,
+        "maxFreezeDifference": 0.07280701754385965,
+        "minGuidePixels": 308,
+        "maxClearPixels": 0
+      },
+      {
+        "tag": "작성된 결과 문서",
+        "guidedFrames": 71,
+        "clearFrames": 136,
+        "maxFreezeDifference": 0.014126055880441845,
+        "minGuidePixels": 606,
+        "maxClearPixels": 0
+      },
+      {
+        "tag": "결과에 참고한 자료",
+        "guidedFrames": 71,
+        "clearFrames": 4,
+        "maxFreezeDifference": 0.007504873294346979,
+        "minGuidePixels": 561,
+        "maxClearPixels": 0
+      },
+      {
+        "tag": "저장 시작",
+        "guidedFrames": 56,
+        "clearFrames": 47,
+        "maxFreezeDifference": 0.051176088369070824,
+        "minGuidePixels": 102,
+        "maxClearPixels": 0
+      },
+      {
+        "tag": "저장할 파일 경로",
+        "guidedFrames": 68,
+        "clearFrames": 4,
+        "maxFreezeDifference": 0.020311890838206628,
+        "minGuidePixels": 576,
+        "maxClearPixels": 0
+      },
+      {
+        "tag": "저장 내용 미리 보기",
+        "guidedFrames": 50,
+        "clearFrames": 43,
+        "maxFreezeDifference": 0.04260558804418454,
+        "minGuidePixels": 301,
+        "maxClearPixels": 0
+      },
+      {
+        "tag": "저장 대상과 변경 내용",
+        "guidedFrames": 86,
+        "clearFrames": 4,
+        "maxFreezeDifference": 0.02289798570500325,
+        "minGuidePixels": 560,
+        "maxClearPixels": 0
+      },
+      {
+        "tag": "확인 후 저장 승인",
+        "guidedFrames": 50,
+        "clearFrames": 52,
+        "maxFreezeDifference": 0.03489928525016244,
+        "minGuidePixels": 217,
+        "maxClearPixels": 0
+      },
+      {
+        "tag": "작업 기록 메뉴",
+        "guidedFrames": 50,
+        "clearFrames": 60,
+        "maxFreezeDifference": 0.008128654970760233,
+        "minGuidePixels": 451,
+        "maxClearPixels": 0
+      },
+      {
+        "tag": "이전 결과 다시 열기",
+        "guidedFrames": 62,
+        "clearFrames": 100,
+        "maxFreezeDifference": 0.0066146848602988955,
+        "minGuidePixels": 264,
+        "maxClearPixels": 0
+      }
+    ]
+  }
+}

@@ -1,70 +1,23 @@
-const orders = [
-  {id:'A-01', amount:10000, status:'완료'},
-  {id:'A-01', amount:10000, status:'완료'},
-  {id:'A-02', amount:25000, status:'완료'},
-  {id:'A-03', amount:7000, status:'취소'}
+const features=[
+{kicker:'01 / 쉬운 시작',title:'에이전트를 몰라도,<br>내 일은 아니까.',description:'필수 하네스를 담은 실행 파일 하나. 한국어 안내를 따라 모델과 자료를 연결하고, 원하는 일을 말합니다.',detail:'하네스는 AI가 일할 때 필요한 작업 절차·도구·기록을 연결하는 장치입니다. 이를 따로 조립하지 않고 시작하도록 설계합니다. 사용 모델의 계정·인증 준비는 필요할 수 있습니다.'},
+{kicker:'02 / 작업 워크플로우',title:'만드는 데서 끝내지 않고,<br>요청대로 됐는지 확인.',description:'설계 → 리뷰 → 실행 → 테스트. 빠진 조건을 보완하고, 결과가 요청을 충족하는지 확인하는 절차를 연결합니다.',detail:'사용자가 요청한 작업에 적용하는 하네스입니다. 코드·자료·문서에 맞는 검사를 연결하고 문제를 보완합니다. 검사는 확인한 조건 안에서 근거를 제공하며, 확인하지 못한 내용은 별도로 남깁니다. <a href="./details.html#story">조건을 바꾸며 계산·검사 체험하기 ↗</a>'},
+{kicker:'03 / 지식 시스템',title:'어제의 작업을,<br>오늘의 출발점으로.',description:'이전 작업의 이력·결과·출처를 지식으로 연결합니다. 다시 쓸 자료를 골라 새로운 요청에 활용합니다.',detail:'작업 재개는 멈춘 작업을 이어가는 기능, 지식 재사용은 이전 결과를 새 작업에 활용하는 기능입니다. 결과의 내용과 출처를 확인해 사용 가능으로 선택한 자료만 후속 요청에 활용합니다. 후보를 자동으로 모두 기억·사용하지 않습니다.'},
+{kicker:'04 / 모델 역할 분담',title:'깊이 생각할 때와,<br>가볍게 처리할 때를 나눠서.',description:'복잡한 계획에는 고성능 모델, 일반 작업에는 저비용 모델. 필요한 단계에 배정해 비용과 성능의 균형을 추구합니다.',detail:'사용자가 지정한 모델을 Planner(계획·복잡한 분석)와 Worker(일반 작업)에 배정하는 방식입니다. 모델 하나를 두 용도로 함께 쓸 수도 있습니다. 아래는 역할 배정 예시이며, 사용 중 임의 모델로 교체하지 않습니다. 절감률·응답 속도는 아직 측정하지 않았습니다.'},
+{kicker:'05 / PI 오픈소스 기반',title:'가벼운 기반 위에,<br>내 일을 위한 하네스.',description:'Pi 에이전트의 실행 기반을 활용하고, 온보딩·작업 절차·지식 시스템을 더합니다. 빠르고 안정적인 동작을 지향합니다.',detail:'Pi는 에이전트 실행 루프·모델 연결·터미널 인터페이스를 제공하는 오픈소스입니다. MindCraft는 그 위에 제품의 작업·권한·지식 흐름을 구성합니다. Pi 사용만으로 성능이나 안정성이 보장되는 것은 아니며, 제품 수준의 검증은 별도로 진행합니다. <a href="https://github.com/earendil-works/pi">Pi 공식 저장소 ↗</a>'}
 ];
-const scenes = [
-  ['자연어로 시작','원하는 결과를<br>내 말로 요청해요.','파일을 어디서 읽고 어떤 코드를 실행할지 몰라도, 무엇이 필요한지부터 설명합니다.','쉬운 시작은 작업의 목적을 분명히 하는 데서 출발합니다.','이번 작업의 입력'],
-  ['작업 설계','어떻게 만들지,<br>순서를 세워요.','자료 읽기 → 집계 → 결과 저장. 그런데 이 초안에는 중요한 조건이 빠져 있습니다.','계획이 있다는 것과, 계획이 요청을 충족한다는 것은 다릅니다.','검토 전 설계 초안'],
-  ['설계 리뷰','리뷰에서 발견한<br>빈틈을 채워요.','취소와 중복을 제외하라는 요청이 설계에 반영됐는지 확인합니다. 두 조건을 직접 켜고 합계를 비교해보세요.','왜 고쳤는지 알 수 있게, 요청과 수정 사항을 연결합니다.','조건을 적용해 비교하기'],
-  ['실행 테스트','실제로 계산하고,<br>조건을 검사해요.','이 웹 예시가 선택한 조건으로 계산한 뒤, 기대 합계와 중복·취소 제외 여부를 검사합니다.','실패하면 리뷰 단계로 돌아가 조건을 보완할 수 있습니다.','웹 예시의 검사 결과'],
-  ['결과와 근거','무엇을 만들었고,<br>무엇을 확인했는지.','결과와 검사 범위를 함께 읽습니다. 파일이 만들어졌다는 사실만으로 작업 전체를 통과 처리하지 않습니다.','확인한 범위와 확인하지 못한 범위를 구분합니다.','결과 전달 예시'],
-  ['다음 작업으로','확인한 결과를,<br>다음 일에 이어서.','결과와 출처를 확인해 재사용 대상으로 선택합니다. 다음 요청에서는 관련된 이전 결과를 활용합니다.','중단한 작업을 재개하는 것과, 결과를 새 요청에 활용하는 것은 다릅니다.','다음 요청 예시']
-];
-const tabs=[...document.querySelectorAll('[data-flow]')];
-let current=0, excludeCancelled=false, deduplicate=false;
-const money=n=>n.toLocaleString('ko-KR');
-function calculate(){
-  const seen=new Set();
-  const rows=orders.filter(row=>{
-    if(excludeCancelled&&row.status==='취소')return false;
-    if(deduplicate&&seen.has(row.id))return false;
-    seen.add(row.id);return true;
-  });
-  return {rows,total:rows.reduce((sum,row)=>sum+row.amount,0)};
+const $=s=>document.querySelector(s),tabs=[...document.querySelectorAll('[data-feature]')];let current=0,onboard=0,workflow=0,dual=true;
+function selectFeature(n,focus=false){current=Math.max(0,Math.min(4,n));tabs.forEach((b,i)=>{b.setAttribute('aria-selected',String(i===current));b.tabIndex=i===current?0:-1;});const f=features[current];$('#panel-kicker').textContent=f.kicker;$('#panel-title').innerHTML=f.title;$('#panel-description').textContent=f.description;$('#panel-detail').innerHTML=f.detail;$('#deep-detail').open=false;$('#position').textContent=`${current+1} / 5`;$('#prev-feature').disabled=current===0;$('#next-feature').disabled=current===4;$('#feature-panel').setAttribute('aria-labelledby',`tab-${current}`);draw();if(focus)tabs[current].focus();}
+const onboarding=[['▦','MindCraft.exe','필수 하네스를 한 번에','1. 실행 파일 열기','별도 개발 도구 설치 없이 시작하는 것이 목표입니다.'],['⇄','모델 연결 안내','일반 작업 · 복잡한 계획','2. 안내에 따라 준비','서비스와 모델을 선택하고 연결을 확인합니다.'],['>','내 말로 요청','내 자료로 첫 작업','3. 원하는 일 말하기','“이 자료로 이번 주 보고서를 만들어줘.”']];
+const flow=[['설계','요청을 작업 계획으로','취소와 중복을 제외하는 집계 기준을 정합니다.'],['리뷰','빠진 조건은 없는지','실행 전에 요청과 계획을 대조해 보완합니다.'],['실행','허용한 작업 수행','대상과 내용을 확인한 뒤 파일 생성을 승인합니다.'],['테스트','결과를 조건과 대조','취소·중복 제외, 합계 등 확인한 조건을 보여줍니다.']];
+function draw(){const root=$('#interactive');
+ if(current===0){const s=onboarding[onboard];root.innerHTML=`<div class="file-tile"><span>${s[0]}</span><strong>${s[1]}</strong><small>${s[2]}</small></div><p class="scene-title">${s[3]}</p><p>${s[4]}</p><button class="scene-button" id="onboard-next">${onboard===2?'처음부터 보기 ↺':'다음 안내 →'}</button>`;}
+ if(current===1){const f=flow[workflow];root.innerHTML=`<div class="mini-steps">${flow.map((x,i)=>`<button data-workflow="${i}" aria-pressed="${i===workflow}">${x[0]}</button>`).join('')}</div><div class="scene-result"><strong>${f[1]}</strong><p>${f[2]}</p></div><p>문제 발견 → 계획·결과 보완 → 다시 확인</p><a class="scene-button" href="./details.html#story">직접 계산·검사해보기 ↗</a>`;}
+ if(current===2)root.innerHTML='<div class="knowledge"><label><input id="use-knowledge" type="checkbox"> 지난 작업의 보고서 작성 기준<br><small>출처: 지난 작업 결과 · 예시 자료</small></label></div><div class="scene-result"><strong>새 요청: 이번 주 보고서도 만들어줘.</strong><p id="knowledge-result" aria-live="polite">아직 선택하지 않았습니다. 이전 기준은 포함하지 않습니다.</p></div><p>내용·출처를 확인하고, 쓸 지식만 직접 선택.</p>';
+ if(current===3)root.innerHTML=`<div class="mini-steps"><button id="single-model" aria-pressed="${!dual}">모델 하나로</button><button id="dual-model" aria-pressed="${dual}">역할을 나눠서</button></div><div class="model-row"><span>복잡한 계획·분석</span><b>${dual?'고성능 모델':'선택한 모델 A'}</b></div><div class="model-row"><span>일반 작업 처리</span><b>${dual?'저비용 모델':'선택한 모델 A'}</b></div><p>${dual?'필요한 역할에 자원을 집중하는 구성':'하나의 모델을 두 용도로 사용하는 구성'}</p><p>역할 배정 예시 · 실제 요금·성능 비교 아님</p>`;
+ if(current===4)root.innerHTML='<div class="pi-stack"><div>MindCraft<span>친절한 시작 · 작업 워크플로우 · 지식 활용</span></div><div>Pi 에이전트 기반<span>에이전트 실행 · 모델 연결 · 터미널 인터페이스</span></div></div><p>검증 가능한 오픈소스를 토대로 제품 경험을 더합니다.</p><a class="scene-button" href="https://github.com/earendil-works/pi">Pi 알아보기 ↗</a>';
 }
-function checks(result){return [
-  ['기대 합계 35,000원',result.total===35000],
-  ['취소 주문 제외',result.rows.every(row=>row.status!=='취소')],
-  ['주문 번호 중복 없음',new Set(result.rows.map(row=>row.id)).size===result.rows.length]
-];}
-function renderEvidence(){
-  const result=calculate(), tests=checks(result), passed=tests.every(([,ok])=>ok);
-  let content='';
-  if(current===0)content='<p class="evidence-explain">요청에는 <strong>취소 제외</strong>와 <strong>중복 제외</strong>라는 조건이 있습니다.</p>';
-  if(current===1)content='<ol class="plan-list"><li>주문 자료 읽기</li><li>모든 금액 더하기 <span class="finding">조건 누락</span></li><li>매출 집계 파일 만들기</li></ol><p class="evidence-explain">리뷰할 질문: 취소와 중복을 언제 제외하나요?</p>';
-  if(current===2)content=`<fieldset class="review-options"><legend>리뷰 지적을 설계에 반영해보세요</legend><label><input id="exclude" type="checkbox" ${excludeCancelled?'checked':''}> 취소된 주문은 제외하기</label><label><input id="dedup" type="checkbox" ${deduplicate?'checked':''}> 같은 주문 번호는 한 번만 집계하기</label></fieldset><p class="evidence-explain">조건을 바꾸면 아래 합계가 즉시 달라집니다.</p>`;
-  if(current===3||current===4)content=`<div class="test-summary ${passed?'pass':'fail'}">${passed?'3개 조건 모두 충족':'보완할 조건이 남아 있습니다'}</div><ul class="test-list">${tests.map(([label,ok])=>`<li><span class="${ok?'pass-text':'fail-text'}">${ok?'통과':'미충족'}</span>${label}</li>`).join('')}</ul><p class="evidence-explain">검사 범위: 이 페이지의 합성 데이터 4행과 위 3개 조건. 실제 모델 실행·파일 저장 테스트는 포함하지 않습니다.</p>${!passed?'<button class="review-back" id="review-back">리뷰로 돌아가 보완하기 ↗</button>':''}`;
-  if(current===5)content='<div class="reuse-example"><span>선택해 남길 결과</span><strong>매출 집계 결과 + 입력 출처</strong><span>다음 요청</span><p>“이 집계를 바탕으로 주간 보고 초안을 만들어줘.”</p></div><p class="evidence-explain">실제 제품에서는 사용자가 재사용할 결과를 선택합니다. 여기서는 재사용 흐름만 설명합니다.</p>';
-  document.querySelector('#evidence-content').innerHTML=content;
-  const shown=current<2?52000:result.total;
-  document.querySelector('#total-value').innerHTML=money(shown)+'<span>원</span>';
-  document.querySelector('#total-label').textContent=current<2?'모든 행을 단순 합산하면':'선택한 조건으로 계산한 합계';
-  document.querySelector('#total-note').textContent=current<2?'파일을 만들었다는 사실만으로 집계가 맞는 것은 아닙니다.':passed?'취소 7,000원과 중복 10,000원을 제외한 결과입니다.':'요청한 조건과 다른 결과입니다. 리뷰에서 조건을 반영해보세요.';
-  document.querySelector('#exclude')?.addEventListener('change',e=>{excludeCancelled=e.target.checked;updateTotal();});
-  document.querySelector('#dedup')?.addEventListener('change',e=>{deduplicate=e.target.checked;updateTotal();});
-  document.querySelector('#review-back')?.addEventListener('click',()=>show(2,true));
-}
-function updateTotal(){const result=calculate();document.querySelector('#total-value').innerHTML=money(result.total)+'<span>원</span>';document.querySelector('#total-note').textContent=checks(result).every(([,ok])=>ok)?'취소 7,000원과 중복 10,000원을 제외한 결과입니다.':'아직 요청 조건을 모두 반영하지 않았습니다.';}
-function show(index,focus=false){
-  current=Math.max(0,Math.min(5,index));const scene=scenes[current];
-  tabs.forEach((tab,i)=>{tab.setAttribute('aria-selected',String(i===current));tab.tabIndex=i===current?0:-1;});
-  document.querySelector('#flow-panel').setAttribute('aria-labelledby','flow-'+current);
-  document.querySelector('#flow-kicker').textContent='0'+(current+1)+' / '+scene[0];
-  document.querySelector('#flow-title').innerHTML=scene[1];
-  document.querySelector('#flow-description').textContent=scene[2];
-  document.querySelector('#flow-purpose').textContent=scene[3];
-  document.querySelector('#evidence-title').textContent=scene[4];
-  document.querySelector('#flow-position').textContent=(current+1)+' / 6';
-  document.querySelector('#flow-prev').disabled=current===0;
-  document.querySelector('#flow-next').textContent=current===5?'처음부터 ↺':tabs[current+1].querySelector('span').textContent+' 보기 →';
-  renderEvidence();if(focus)tabs[current].focus();
-}
-for(const [i,tab] of tabs.entries()){
-  tab.addEventListener('click',()=>show(i));
-  tab.addEventListener('keydown',event=>{let target;if(event.key==='ArrowRight')target=(i+1)%6;if(event.key==='ArrowLeft')target=(i+5)%6;if(event.key==='Home')target=0;if(event.key==='End')target=5;if(target!==undefined){event.preventDefault();show(target,true);}});
-}
-document.querySelector('#flow-prev').addEventListener('click',()=>show(current-1));
-document.querySelector('#flow-next').addEventListener('click',()=>show(current===5?0:current+1));
-show(0);
+tabs.forEach((b,i)=>{b.addEventListener('click',()=>selectFeature(i));b.addEventListener('keydown',e=>{let n=i;if(e.key==='ArrowRight')n=(i+1)%5;else if(e.key==='ArrowLeft')n=(i+4)%5;else if(e.key==='Home')n=0;else if(e.key==='End')n=4;else return;e.preventDefault();selectFeature(n,true);});});
+$('#prev-feature').addEventListener('click',()=>selectFeature(current-1));$('#next-feature').addEventListener('click',()=>selectFeature(current+1));
+$('#interactive').addEventListener('click',e=>{const b=e.target.closest('button');if(!b)return;if(b.id==='onboard-next'){onboard=(onboard+1)%3;draw();}if(b.dataset.workflow!==undefined){workflow=Number(b.dataset.workflow);draw();}if(b.id==='single-model'||b.id==='dual-model'){dual=b.id==='dual-model';draw();}});
+$('#interactive').addEventListener('change',e=>{if(e.target.id==='use-knowledge')$('#knowledge-result').textContent=e.target.checked?'선택한 작성 기준을 이번 요청의 자료로 포함합니다.':'선택을 해제했습니다. 이전 기준은 포함하지 않습니다.';});
+const dialog=$('#video-dialog'),video=$('#concept-video');$('#open-video').addEventListener('click',()=>{if(!video.getAttribute('src'))video.src=video.dataset.src;video.muted=true;dialog.showModal();video.play().catch(()=>{});});$('#close-video').addEventListener('click',()=>dialog.close());dialog.addEventListener('close',()=>{video.pause();$('#open-video').focus();});$('#video-to-feature').addEventListener('click',()=>dialog.close());dialog.addEventListener('click',e=>{if(e.target===dialog){const r=dialog.getBoundingClientRect();if(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom)dialog.close();}});

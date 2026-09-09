@@ -7,8 +7,8 @@
     "tree": "a9e88d9dc2c39c074416b9e8c7f63abb07cf5fbf"
   },
   "fieldLengths": {
-    "title": 28,
-    "description": 639,
+    "title": 29,
+    "description": 606,
     "instructions": 264
   },
   "screenshots": [
@@ -85,5 +85,5 @@
       "sha256": "b985b852186ac2ceef44dea8cac0ae5fb43499cef261d3bfecd07e40beb663f6"
     }
   ],
-  "copyUpdatedAt": "2026-09-09T01:39:45.901Z"
+  "copyUpdatedAt": "2026-09-09T01:57:04.143Z"
 }

@@ -1,9 +1,7 @@
-# 실행 파일과 제출 ZIP
+# 제출 v5 패키지
 
-이 커밋은 v4 제출 패키지의 원고·캡처·웹페이지·검증 기록을 보존합니다. 실행 파일과 소스 ZIP은 Git 저장소에 중복 저장하지 않고 당시 전체 패키지에 포함했습니다.
+[전체 ZIP 다운로드](https://github.com/ddt-mindcraft/mindcraft-showcase/releases/download/submission-2026-09-09-v5/MindCraft-submission-2026-09-09-v5.zip) · [릴리스](https://github.com/ddt-mindcraft/mindcraft-showcase/releases/tag/submission-2026-09-09-v5)
 
-[원본 제출 패키지 다운로드](https://github.com/ddt-mindcraft/mindcraft-showcase/releases/download/submission-2026-09-09-v4/MindCraft-submission-2026-09-09-v4.zip) · [릴리스](https://github.com/ddt-mindcraft/mindcraft-showcase/releases/tag/submission-2026-09-09-v4)
+실행 파일과 두 소스 ZIP은 전체 패키지의 artifacts/에 포함합니다. gallery/는 설명 강조 편집본, original-gallery/는 변경하지 않은 실제 캡처입니다.
 
-SHA-256: `3d08984acecfd3470bc01ca381074b1a828cc248afbbce9c16efa64c24eea0ff`
-
-ZIP을 풀면 README에 안내된 artifacts/ 실행 파일과 소스 ZIP을 사용할 수 있습니다. 원래 패키지는 수정하지 않았습니다. 각 버전의 개발 상태와 실행물 차이는 STATUS-AND-EVIDENCE.md를 참고하세요.
+SHA-256: `c7427df946b811879b62c6706b9b45d16430f954f3248615d5c881ba7c0e92bb`

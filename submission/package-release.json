@@ -1,11 +1,11 @@
 {
-  "version": "v4",
-  "tag": "submission-2026-09-09-v4",
-  "archive": "MindCraft-submission-2026-09-09-v4.zip",
-  "bytes": 136927050,
-  "sha256": "3d08984acecfd3470bc01ca381074b1a828cc248afbbce9c16efa64c24eea0ff",
+  "version": "v5",
+  "tag": "submission-2026-09-09-v5",
+  "archive": "MindCraft-submission-2026-09-09-v5.zip",
+  "bytes": 151334832,
+  "sha256": "c7427df946b811879b62c6706b9b45d16430f954f3248615d5c881ba7c0e92bb",
   "title": "MindCraft | AI 딸깍, 야근 싹뚝",
-  "summary": "AI 딸깍, 야근 싹뚝 확정",
-  "release": "https://github.com/ddt-mindcraft/mindcraft-showcase/releases/tag/submission-2026-09-09-v4",
-  "download": "https://github.com/ddt-mindcraft/mindcraft-showcase/releases/download/submission-2026-09-09-v4/MindCraft-submission-2026-09-09-v4.zip"
+  "summary": "스크린샷 설명·기능 하이라이트와 원본 보존",
+  "release": "https://github.com/ddt-mindcraft/mindcraft-showcase/releases/tag/submission-2026-09-09-v5",
+  "download": "https://github.com/ddt-mindcraft/mindcraft-showcase/releases/download/submission-2026-09-09-v5/MindCraft-submission-2026-09-09-v5.zip"
 }

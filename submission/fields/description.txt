@@ -23,4 +23,4 @@ AI 딸깍, 야근 싹뚝.
 
 개발 중 · 실제 앱의 오프라인 샘플 공개(모델 호출 없음).
 1분 소개·실제 화면·현재 지원 범위:
-https://ddt-mindcraft.github.io/mindcraft-showcase/?v=10
+https://ddt-mindcraft.github.io/mindcraft-showcase/?v=11

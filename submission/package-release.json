@@ -1,12 +1,12 @@
 {
-  "version": "v11",
-  "tag": "submission-2026-09-09-v11",
-  "archive": "MindCraft-submission-v1.0.zip",
-  "bytes": 155089903,
-  "sha256": "ba565a64761bd1625f41c9d62a8930a81caa74c225f55235b3c17c17df16015b",
+  "version": "v12",
+  "tag": "submission-2026-09-09-v12",
+  "archive": "MindCraft-submission-v1.0.1.zip",
+  "bytes": 158073609,
+  "sha256": "09860c3406e51faf7e4bd6aefe2649e58fdba2b4a7bf0e48d665fd6a917f956e",
   "title": "MindCraft | AI 딸깍, 야근 싹뚝",
-  "summary": "제출본 1.0 · 상단 애니메이션·데모 강조·실행 링크 정리",
-  "release": "https://github.com/ddt-mindcraft/mindcraft-showcase/releases/tag/submission-2026-09-09-v11",
-  "download": "https://github.com/ddt-mindcraft/mindcraft-showcase/releases/download/submission-2026-09-09-v11/MindCraft-submission-v1.0.zip",
-  "releaseNote": "9/9 승인된 r3 첫 릴리스 기준입니다.\n\n- 소스 업로드: MindCraft-submission-v1.0-source.zip (루트 README, src, 전체 최종 aidlc-docs 147개, 대표 캡처 3장)\n- 실행: MindCraft-0.1.0-windows-x64.exe (최종 build-z9OSa3, 코드 서명 없음)\n- 전체 보관: MindCraft-submission-v1.0.zip\n- 갤러리: 전체 패키지의 gallery/01-cover.png 한 장\n\n문서 분석·작성, 출처 확인, 승인 저장, 기록·지식 재사용을 제공합니다. 전체 자동 설계 리뷰·실행 테스트, 명령 실행, 새 Windows 환경 전면 검증은 후속입니다. 영상은 이전 개발 UI의 코치마크 설명이며, 최종 실행 근거는 새 EXE 캡처입니다."
+  "summary": "제출본 1.0.1 · 핵심 소개·지식 재사용 실증·소스 안내 개선",
+  "release": "https://github.com/ddt-mindcraft/mindcraft-showcase/releases/tag/submission-2026-09-09-v12",
+  "download": "https://github.com/ddt-mindcraft/mindcraft-showcase/releases/download/submission-2026-09-09-v12/MindCraft-submission-v1.0.1.zip",
+  "releaseNote": "완성된 제출 자료 1.0.1입니다. 검증된 앱은 0.1.0 / r3 / build-z9OSa3입니다.\n\n- 소스 업로드: MindCraft-submission-v1.0.1-source.zip\n- Windows 실행: MindCraft-0.1.0-windows-x64.exe\n- 전체 자료 보관: MindCraft-submission-v1.0.1.zip\n- 갤러리: 전체 자료의 gallery/01-cover.png 한 장\n\n핵심 5가지를 앞쪽에 배치하고 실제 작업 흐름으로 설명을 통일했습니다. 최종 EXE에서 지식 보관·선택·새 요청 활용을 검증한 캡처 2장을 추가했습니다. 영상 전환과 평가용 README도 정리했습니다. AI-DLC 문서 147개 전체를 최종 Git 원문과 대조했습니다.\n\n[소개와 데모](https://ddt-mindcraft.github.io/mindcraft-showcase/?v=16) · [실행 환경·검증 기록](https://github.com/ddt-mindcraft/mindcraft-showcase/blob/main/submission/STATUS-AND-EVIDENCE.md)"
 }

@@ -1,6 +1,6 @@
 {
-  "preparedAt": "2026-09-09T04:38:38.643460+00:00",
-  "submissionVersion": "v11",
+  "preparedAt": "2026-09-09T05:34:21.708843+00:00",
+  "submissionVersion": "v12",
   "title": "MindCraft | AI 딸깍, 야근 싹뚝",
   "sourceSnapshot": "04284c1c98b80fa3fece9fd6d6c79cec7fba6683",
   "releaseSource": {
@@ -8,7 +8,7 @@
     "tree": "bcc9d01fda8f9e01f913f69c7456153b4556986b"
   },
   "lifecycle": "r3 COMPLETE / AP-MVP-BT-001",
-  "evaluationSource": "artifacts/MindCraft-submission-v1.0-source.zip",
+  "evaluationSource": "artifacts/MindCraft-submission-v1.0.1-source.zip",
   "artifacts": [
     {
       "file": "artifacts/MindCraft-0.1.0-source.zip",
@@ -21,9 +21,9 @@
       "sha256": "6acc01d3dc82032a9c7214bceef44cada5a67d51524708945fda4f31e3e2b150"
     },
     {
-      "file": "artifacts/MindCraft-submission-v1.0-source.zip",
-      "bytes": 3282174,
-      "sha256": "dc0f40d585c7ab3e6be2f9606f9b7779c4d93146767e962b84e1d06d2440cea7"
+      "file": "artifacts/MindCraft-submission-v1.0.1-source.zip",
+      "bytes": 3278759,
+      "sha256": "5e5c693257ef956ab4b23e84dae6fb48129ec7fbf66845111080e4e7d46611c2"
     }
   ],
   "gallery": [
@@ -58,6 +58,18 @@
       "file": "demo-images/05-history.png",
       "title": "한번 한 일, 다시 이어서",
       "sha256": "1411c25e40b5778036d605a9289617b02f6b9ce1ee6bc99661daadc8f257bb2d",
+      "source": "actual final portable EXE; offline; no image editing"
+    },
+    {
+      "file": "demo-images/06-knowledge-review.png",
+      "title": "쓸 자료는, 내용과 출처를 보고",
+      "sha256": "748be707da7e726709b967fe5933fa226ef036a50a08d0160c1c3c44b2a49906",
+      "source": "actual final portable EXE; offline; no image editing"
+    },
+    {
+      "file": "demo-images/07-knowledge-reuse.png",
+      "title": "지난 결과가, 새 요청의 자료로",
+      "sha256": "437d3cd58755c624489ffc505adda5ad0e45f8f8337615befd9817d5f306d977",
       "source": "actual final portable EXE; offline; no image editing"
     }
   ],
@@ -101,16 +113,18 @@
       "src/",
       "aidlc-docs/",
       "screenshots/"
-    ]
+    ],
+    "submissionPackageVersion": "1.0.1",
+    "applicationVersion": "0.1.0"
   },
   "exeAuthenticode": "NotSigned",
   "video": {
-    "file": "website/assets/product-demo-v3.mp4",
-    "sha256": "f918000eef9b35baa3b36e2f667436617c3de81480e32532bd786922fa239f90",
-    "durationSeconds": 49.150000000000006,
+    "file": "website/assets/product-demo-v4.mp4",
+    "sha256": "d10299018736edb60fded9ad7847835059dd1cc03be1cb457ac7f56063126dde",
+    "durationSeconds": 46.20000000000001,
     "appFootage": "development GUI offline sample",
     "highlightPolicy": "source-coordinate overlay only during freeze"
   },
-  "submissionPackageVersion": "1.0",
+  "submissionPackageVersion": "1.0.1",
   "applicationVersion": "0.1.0"
 }

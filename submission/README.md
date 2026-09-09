@@ -1,14 +1,14 @@
 # MindCraft | AI 딸깍, 야근 싹뚝
 
-[제품 소개](https://ddt-mindcraft.github.io/mindcraft-showcase/?v=15) · [최종 r3 다운로드](https://github.com/ddt-mindcraft/mindcraft-showcase/releases/tag/submission-2026-09-09-v11)
+[제품 소개](https://ddt-mindcraft.github.io/mindcraft-showcase/?v=16) · [최종 r3 다운로드](https://github.com/ddt-mindcraft/mindcraft-showcase/releases/tag/submission-2026-09-09-v12)
 
-9/9 AI-DLC 프로젝트의 승인된 r3 첫 릴리스를 기준으로 만든 **제출본 1.0 (자료 이력 v11)**입니다.
+9/9 AI-DLC 프로젝트의 승인된 r3 첫 릴리스를 기준으로 만든 **제출본 1.0.1 (자료 이력 v12)**입니다.
 
 ## 지금 제출할 파일
 
 | 제출 항목 | 파일 |
 | --- | --- |
-| 소스 ZIP | **artifacts/MindCraft-submission-v1.0-source.zip** |
+| 소스 ZIP | **artifacts/MindCraft-submission-v1.0.1-source.zip** |
 | 대표 이미지 | **gallery/01-cover.png** 한 장 |
 | 실행 파일 | artifacts/MindCraft-0.1.0-windows-x64.exe |
 | 제목·설명·실행 안내 | SUBMISSION.md 또는 fields/ |
@@ -17,14 +17,14 @@
 
 ## 바로 체험
 
-Windows x64에서 EXE를 쓰기 가능한 별도 폴더에 놓고 실행하세요. 첫 안내의 ‘나중에 설정하고 샘플 체험’ → ‘먼저 작은 프로젝트를 체험해 보세요’ → 자료 3개 확인 → ‘이 자료로 진행’ → 결과 열기 순서입니다. ‘파일로 저장’에서 경로·내용을 승인하고 ‘작업 기록’에서 다시 여세요. 샘플은 모델 호출·비용 없이 체험합니다. 내 모델은 ‘연결 설정’에서 등록합니다. 실행 환경·지원 범위의 상세 안내는 동봉 README.md를 확인하세요.
+Windows x64에서 EXE를 쓰기 가능한 별도 폴더에 놓고 실행하세요. 첫 안내의 ‘나중에 설정하고 샘플 체험’ → ‘먼저 작은 프로젝트를 체험해 보세요’ → 자료 3개 확인 → ‘이 자료로 진행’ → 결과 열기 순서입니다. ‘파일로 저장’에서 경로·내용을 승인하고 ‘작업 기록’에서 다시 여세요. 샘플은 모델 호출·비용 없이 체험합니다. 내 모델은 ‘연결 설정’에서 등록합니다. 실행 환경·지원 범위는 STATUS-AND-EVIDENCE.md를 확인하세요.
 
 ## 자료 안내
 
 실행 파일은 코드 서명되지 않았습니다(`NotSigned`). Windows 경고가 나타날 수 있으며, 다운로드 출처와 manifest.json의 해시를 확인할 수 있습니다. 새 Windows 환경 전면 검증은 후속입니다.
 
 - `website/`: 공개 소개 페이지 전체. Windows EXE 다운로드와 최종 데모·인터랙티브 설명 포함.
-- `demo-images/`: 최종 EXE의 실제 원본 화면 5장. 공식 갤러리에 추가하지 않습니다.
+- `demo-images/`: 최종 EXE의 실제 원본 화면 7장. 공식 갤러리에 추가하지 않습니다.
 - `STATUS-AND-EVIDENCE.md`: 완료 범위·실제 검증 근거.
 - `FINAL-REVIEW.md`: 컨셉과 구현 차이, 버전·영상·일정 등 점검 사항.
 - `manifest.json`: 배포물 해시와 캡처 출처.
@@ -33,6 +33,6 @@ Windows x64에서 EXE를 쓰기 가능한 별도 폴더에 놓고 실행하세�
 
 ## 버전 표기
 
-제출용 소스 묶음은 **1.0**입니다. 앱의 package.json·검증된 EXE 버전은 **0.1.0**이며 기존 최종 r3 배포물과 같습니다. 제출 파일의 버전과 앱 버전을 구분하고, 검증되지 않은 바이너리 재명명이나 재빌드는 하지 않았습니다.
+제출용 소스 묶음은 **1.0.1**입니다. 앱의 package.json·검증된 EXE 버전은 **0.1.0**이며 기존 최종 r3 배포물과 같습니다. 제출 파일의 버전과 앱 버전을 구분하고, 검증되지 않은 바이너리 재명명이나 재빌드는 하지 않았습니다.
 
-실행 링크(데모): https://ddt-mindcraft.github.io/mindcraft-showcase/?v=15#product-film
+실행 링크(데모): https://ddt-mindcraft.github.io/mindcraft-showcase/?v=16#product-film

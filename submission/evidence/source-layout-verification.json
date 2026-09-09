@@ -34,6 +34,6 @@
     "aidlc-docs/",
     "screenshots/"
   ],
-  "submissionPackageVersion": "1.0",
+  "submissionPackageVersion": "1.0.1",
   "applicationVersion": "0.1.0"
 }

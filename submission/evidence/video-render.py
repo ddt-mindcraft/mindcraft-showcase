@@ -26,7 +26,7 @@ def intro(end=False):
   yield im
 # Rectangles are measured on the original 1440×900 recording; they are editorial overlays.
 S=[
- dict(n=1,a=2.7,z=6.3,hold=2.4,title='처음이라면,\n샘플부터.',body='직접 입력하기 전에\n준비된 예시로\n작업 흐름을 익혀요.',action='아래의 샘플 체험을 눌러요.',tag='샘플로 첫 작업 시작',rect=(370,807,915,80),crop=(240,75,1190,815)),
+ dict(n=1,a=2.7,z=3.35,hold=2.4,title='처음이라면,\n샘플부터.',body='직접 입력하기 전에\n준비된 예시로\n작업 흐름을 익혀요.',action='아래의 샘플 체험을 눌러요.',tag='샘플로 첫 작업 시작',rect=(370,807,915,80),crop=(240,75,1190,815)),
  dict(n=2,a=7.0,z=13.0,hold=1.4,title='어떤 자료를\n쓸지 골라요.',body='오른쪽은 이번 작업에\n참고할 자료예요.\n선택한 내용을 확인해요.',action='확인 후 「이 자료로 진행」',tag='자료 선택 → 진행',rect=(1085,275,320,450),crop=(240,75,1190,815)),
  dict(n=3,a=20.0,z=24.4,hold=2.1,title='결과 문서를\n읽어보세요.',body='가운데가 작업 결과예요.\n모집 안내 초안과\n실행 계획을 읽을 수 있어요.',action='내용을 읽으며 아래로 이동해요.',tag='만들어진 결과 문서',rect=(270,438,765,440),crop=(240,75,1190,815)),
  dict(n=3,a=24.4,z=28.1,hold=1.1,title='자료와 결과를\n함께 확인해요.',body='문서를 읽는 동안에도\n오른쪽에서 참고한 자료를\n확인할 수 있어요.',action='결과가 필요한 내용인지 살펴봐요.',tag='참고 자료도 함께 확인',rect=(1085,275,320,402),crop=(240,75,1190,815)),
@@ -76,6 +76,6 @@ if __name__=='__main__':
  graph=[];prev='0:v';total=3
  for k in range(1,len(entries)):
   fade=.3;label=f'x{k}';graph.append(f'[{prev}][{k}:v]xfade=transition=fade:duration={fade}:offset={total-fade}[{label}]');prev=label;total+=entries[k][1]-fade
- dest=B.parent.parent/'site/assets/product-demo-v3.mp4'
+ dest=B.parent.parent/'site/assets/product-demo-v4.mp4'
  run(args+['-filter_complex',';'.join(graph),'-map',f'[{prev}]','-an','-c:v','libx264','-preset','fast','-crf','20','-pix_fmt','yuv420p','-movflags','+faststart',dest]);run(['-ss','1.5','-i',dest,'-frames:v','1',dest.with_suffix('.jpg')])
  (B/'manifest.json').write_text(json.dumps({'duration':total,'chapters':chapters,'generatedVideoUsed':False,'highlightPolicy':'Draw on source coordinates before crop/scale; visible only during initial frozen explanation; removed before motion','sourceVideo':'product-demo-v1/raw-session.webm; development GUI; offline fixture'},ensure_ascii=False,indent=2),encoding='utf-8');print('DONE',total,flush=True)

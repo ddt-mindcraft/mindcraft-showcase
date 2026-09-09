@@ -23,7 +23,13 @@ $('#interactive').addEventListener('change',e=>{if(e.target.id==='use-knowledge'
 const video=$('#concept-video');
 video.muted=true;
 const motion=window.matchMedia('(prefers-reduced-motion: reduce)');
-if(!motion.matches)video.play().catch(()=>{});
+// Both videos start only when the viewer presses play.
 motion.addEventListener('change',e=>{if(e.matches)video.pause();});
 document.addEventListener('visibilitychange',()=>{if(document.hidden)video.pause();});
 video.addEventListener('error',()=>{$('#video-fallback').hidden=false;});
+
+const productVideo=$('#product-video');
+productVideo.addEventListener('error',()=>{$('#product-fallback').hidden=false;});
+productVideo.addEventListener('play',()=>video.pause());
+video.addEventListener('play',()=>productVideo.pause());
+document.addEventListener('visibilitychange',()=>{if(document.hidden)productVideo.pause();});

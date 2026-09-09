@@ -55,4 +55,4 @@ artifacts/MindCraft-0.1.0-submission-source.zip
 5. gallery/05-history.png
 6. gallery/06-model-roles.png
 
-이미지 설명: gallery/CAPTIONS.md. 공식 폼에는 아직 제출하지 않았습니다.
+데모 설명 이미지는 프로젝트 설명 첫머리의 GitHub Pages 링크에서 확인합니다. 이미지 설명: gallery/CAPTIONS.md. 공식 폼에는 아직 제출하지 않았습니다.

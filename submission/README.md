@@ -7,7 +7,7 @@
 - 제목: fields/title.txt (24/40자)
 - 설명: fields/description.txt (588/2000자)
 - 실행 안내: fields/run-instructions.txt (264/500자)
-- 갤러리: gallery/의 PNG 6장을 번호 순서대로. 첫 장 01-cover.png가 대표 썸네일입니다. 설명은 gallery/CAPTIONS.md.
+- 갤러리: gallery/01-cover.png 한 장만 업로드합니다. 데모 설명 이미지는 소개 페이지에서 확인합니다. 설명은 gallery/CAPTIONS.md.
 - 기본 소스 ZIP: artifacts/MindCraft-0.1.0-submission-source.zip — 동봉 실행 파일과 대응하는 소스.
 - 실행 파일: artifacts/MindCraft-0.1.0-windows-x64.exe — 별도 전달용.
 - 최신 커밋 참고 소스: artifacts/MindCraft-current-source-c699752a.zip — 기본 소스와 다른 최신 개발 상태.
@@ -16,7 +16,7 @@
 
 ## 1분 데모
 
-DEMO-60-SECONDS.md 순서대로 보여주세요. 문서 결과 → 시작 화면 → 저장 승인 → 작업 기록 → 모델 역할 설정의 갤러리 순서는 첫 장부터 결과물을 보여주기 위한 구성입니다.
+DEMO-60-SECONDS.md 순서대로 보여주세요. 제출 갤러리는 대표 콘셉트 이미지 한 장입니다. 결과·시작·저장 승인·작업 기록·모델 역할 설정의 설명 이미지는 소개 페이지에 유지합니다.
 
 ## 현재 수준
 
@@ -29,4 +29,4 @@ DEMO-60-SECONDS.md 순서대로 보여주세요. 문서 결과 → 시작 화면
 
 ## v5 설명 이미지
 
-gallery/는 내장 image_gen으로 제목·번호·강조 테두리를 더한 편집본입니다. 원본 픽셀과 완전히 동일한 증거 이미지로 취급하지 않으며, 변경하지 않은 실제 캡처는 original-gallery/에 보존했습니다. UI의 작은 글자와 세부 사항은 원본을 기준으로 확인하세요.
+demo-images/는 내장 image_gen으로 제목·번호·강조 테두리를 더한 편집본입니다. 원본 픽셀과 완전히 동일한 증거 이미지로 취급하지 않으며, 변경하지 않은 실제 캡처는 original-gallery/에 보존했습니다. UI의 작은 글자와 세부 사항은 원본을 기준으로 확인하세요.

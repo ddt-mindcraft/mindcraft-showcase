@@ -1,7 +1,7 @@
-# 제출 v7 패키지
+# 제출 v8 패키지
 
-[평가용 소스 ZIP 다운로드](https://github.com/ddt-mindcraft/mindcraft-showcase/releases/download/submission-2026-09-09-v7/MindCraft-0.1.0-submission-source.zip) · [전체 패키지](https://github.com/ddt-mindcraft/mindcraft-showcase/releases/download/submission-2026-09-09-v7/MindCraft-submission-2026-09-09-v7.zip) · [릴리스](https://github.com/ddt-mindcraft/mindcraft-showcase/releases/tag/submission-2026-09-09-v7)
+[평가용 소스 ZIP](https://github.com/ddt-mindcraft/mindcraft-showcase/releases/download/submission-2026-09-09-v8/MindCraft-0.1.0-submission-source.zip) · [전체 패키지](https://github.com/ddt-mindcraft/mindcraft-showcase/releases/download/submission-2026-09-09-v8/MindCraft-submission-2026-09-09-v8.zip) · [릴리스](https://github.com/ddt-mindcraft/mindcraft-showcase/releases/tag/submission-2026-09-09-v8)
 
-평가용 소스 ZIP은 README.md, src/, aidlc-docs/, screenshots/를 루트에 배치했습니다. 대응 소스 커밋의 AI-DLC 문서 65개를 모두 보존했고 캡처 11장을 별도 배치했습니다. 앱 코드는 바꾸지 않았습니다. 원래 배포 소스 ZIP도 전체 패키지에 그대로 남겼습니다.
+갤러리에는 gallery/01-cover.png 한 장만 업로드하세요. 데모 설명 이미지는 GitHub Pages에 유지하며, 패키지에서는 demo-images/에 보관합니다.
 
-전체 패키지 SHA-256: `eb7ebfcec1a58b94a5333a3a5049edc9c783fb24c0fcce893eed12d03d29d064`
+전체 패키지 SHA-256: `06bb9c642fed5303023c791ceada04d9a96fc41b6f17a97b5205679801d98d24`

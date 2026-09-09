@@ -1,11 +1,11 @@
 {
-  "version": "v7",
-  "tag": "submission-2026-09-09-v7",
-  "archive": "MindCraft-submission-2026-09-09-v7.zip",
-  "bytes": 156736900,
-  "sha256": "eb7ebfcec1a58b94a5333a3a5049edc9c783fb24c0fcce893eed12d03d29d064",
+  "version": "v8",
+  "tag": "submission-2026-09-09-v8",
+  "archive": "MindCraft-submission-2026-09-09-v8.zip",
+  "bytes": 156737086,
+  "sha256": "06bb9c642fed5303023c791ceada04d9a96fc41b6f17a97b5205679801d98d24",
   "title": "MindCraft | AI 딸깍, 야근 싹뚝",
-  "summary": "평가용 소스 ZIP 루트 구조와 README 보완",
-  "release": "https://github.com/ddt-mindcraft/mindcraft-showcase/releases/tag/submission-2026-09-09-v7",
-  "download": "https://github.com/ddt-mindcraft/mindcraft-showcase/releases/download/submission-2026-09-09-v7/MindCraft-submission-2026-09-09-v7.zip"
+  "summary": "제출 갤러리를 대표 콘셉트 이미지 한 장으로 축소",
+  "release": "https://github.com/ddt-mindcraft/mindcraft-showcase/releases/tag/submission-2026-09-09-v8",
+  "download": "https://github.com/ddt-mindcraft/mindcraft-showcase/releases/download/submission-2026-09-09-v8/MindCraft-submission-2026-09-09-v8.zip"
 }

@@ -44,7 +44,7 @@ Windows x64에서 동봉 EXE를 쓰기 가능한 별도 폴더에 놓고 실행�
 
 ## 소스코드
 
-artifacts/MindCraft-0.1.0-source.zip
+artifacts/MindCraft-0.1.0-submission-source.zip
 
 ## 데모 미디어
 

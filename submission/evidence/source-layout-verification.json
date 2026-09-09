@@ -1,0 +1,16 @@
+{
+  "sourceCommit": "6d63b50460da6b002d6df32e22fba5d10a2cac61",
+  "originalArchive": "MindCraft-0.1.0-source.zip",
+  "originalArchiveSha256": "5652754ce8a5ea3a7e62d201bdc0f05f330c8701991093b4ce905552a6b13d4d",
+  "aidlcDocsFiles": 65,
+  "aidlcDocsExactGitMatch": true,
+  "captureFiles": 11,
+  "originalSourceFiles": 211,
+  "addedOrChanged": [
+    "README.md",
+    "README-original.md",
+    "screenshots/",
+    "submission-source-manifest.json"
+  ],
+  "sourceCodeChanged": false
+}

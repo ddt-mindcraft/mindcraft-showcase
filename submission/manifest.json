@@ -93,6 +93,11 @@
       "file": "artifacts/MindCraft-current-source-c699752a.zip",
       "bytes": 1730232,
       "sha256": "b985b852186ac2ceef44dea8cac0ae5fb43499cef261d3bfecd07e40beb663f6"
+    },
+    {
+      "file": "artifacts/MindCraft-0.1.0-submission-source.zip",
+      "bytes": 2145712,
+      "sha256": "5ae072c016efc45e72f1e87f255238ce60d26bb98217bd90e4a566a6c93c3163"
     }
   ],
   "copyUpdatedAt": "2026-09-09T02:21:22.332Z",
@@ -111,5 +116,6 @@
     "gallery/04-approval.png",
     "gallery/05-history.png",
     "gallery/06-model-roles.png"
-  ]
+  ],
+  "evaluationSource": "artifacts/MindCraft-0.1.0-submission-source.zip"
 }

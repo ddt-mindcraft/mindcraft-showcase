@@ -8,7 +8,7 @@
 - 설명: fields/description.txt (588/2000자)
 - 실행 안내: fields/run-instructions.txt (264/500자)
 - 갤러리: gallery/의 PNG 6장을 번호 순서대로. 첫 장 01-cover.png가 대표 썸네일입니다. 설명은 gallery/CAPTIONS.md.
-- 기본 소스 ZIP: artifacts/MindCraft-0.1.0-source.zip — 동봉 실행 파일과 대응하는 소스.
+- 기본 소스 ZIP: artifacts/MindCraft-0.1.0-submission-source.zip — 동봉 실행 파일과 대응하는 소스.
 - 실행 파일: artifacts/MindCraft-0.1.0-windows-x64.exe — 별도 전달용.
 - 최신 커밋 참고 소스: artifacts/MindCraft-current-source-c699752a.zip — 기본 소스와 다른 최신 개발 상태.
 

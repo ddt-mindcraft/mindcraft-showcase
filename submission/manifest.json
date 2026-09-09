@@ -1,116 +1,114 @@
 {
-  "preparedAt": "2026-09-09T01:23:40.735Z",
-  "project": "C:/ai/ai-dlc-09-09/mindcraft",
-  "sourceSnapshot": "c699752ad5eee6a5d77a1b0763c8983d78d6b03f",
+  "preparedAt": "2026-09-09T04:38:38.643460+00:00",
+  "submissionVersion": "v9",
+  "title": "MindCraft | AI 딸깍, 야근 싹뚝",
+  "sourceSnapshot": "04284c1c98b80fa3fece9fd6d6c79cec7fba6683",
   "releaseSource": {
-    "commit": "6d63b50460da6b002d6df32e22fba5d10a2cac61",
-    "tree": "a9e88d9dc2c39c074416b9e8c7f63abb07cf5fbf"
+    "commit": "26eb06f43d3e02aa1b0db04b85e1e870f239a417",
+    "tree": "bcc9d01fda8f9e01f913f69c7456153b4556986b"
   },
-  "fieldLengths": {
-    "title": 24,
-    "description": 588,
-    "instructions": 264
-  },
-  "screenshots": [
-    {
-      "file": "demo-images/02-result.png",
-      "title": "자료와 결과, 한눈에",
-      "caption": "선택한 자료와 결과 문서를 함께 확인합니다.",
-      "source": "C:/ai/ai-dlc-09-09/mindcraft/aidlc-docs/construction/mindcraft/evidence/screenshots/workspace-1440.png",
-      "sourceModified": "2026-09-09T01:17:25.919Z",
-      "sha256": "3433df924d8609ced758b4334e655900df96234c8f976c2cdb7df692d8f39510",
-      "kind": "Actual GUI screenshot-based annotated illustration edited using image_gen; original retained separately",
-      "sourceCommitOfScreenshot": "Not asserted: captured from active development workspace",
-      "test": "mindcraft/tests/gui.electron.ts",
-      "originalFile": "original-gallery/01-result.png",
-      "originalSha256": "862f9b82abac063fbc393c53a1edfb315e2f7ffe659fb774cbdbd72960badd32"
-    },
-    {
-      "file": "demo-images/03-easy-start.png",
-      "title": "첫 작업은 가볍게",
-      "caption": "샘플을 따라 첫 작업을 직접 해봅니다.",
-      "source": "C:/ai/ai-dlc-09-09/mindcraft/aidlc-docs/construction/mindcraft/evidence/screenshots/home-1440.png",
-      "sourceModified": "2026-09-09T01:17:18.290Z",
-      "sha256": "bd5be024d4859138f2aa40efd737c9fa6e3da409998af459b094c0342aec6f26",
-      "kind": "Actual GUI screenshot-based annotated illustration edited using image_gen; original retained separately",
-      "sourceCommitOfScreenshot": "Not asserted: captured from active development workspace",
-      "test": "mindcraft/tests/gui.electron.ts",
-      "originalFile": "original-gallery/02-easy-start.png",
-      "originalSha256": "cfea5649c49b3683d630338aed8d3174c5dc14273b8099d250725750e8ab90c9"
-    },
-    {
-      "file": "demo-images/04-approval.png",
-      "title": "저장은 확인하고",
-      "caption": "저장 경로와 변경 내용을 보고 승인합니다.",
-      "source": "C:/ai/ai-dlc-09-09/mindcraft/aidlc-docs/construction/mindcraft/evidence/screenshots/approval-1440.png",
-      "sourceModified": "2026-09-09T01:17:26.878Z",
-      "sha256": "a21c1e30fc3c6bdd689e606df84f84d45738b1b36f11e48cbd942e3e64a7c0fc",
-      "kind": "Actual GUI screenshot-based annotated illustration edited using image_gen; original retained separately",
-      "sourceCommitOfScreenshot": "Not asserted: captured from active development workspace",
-      "test": "mindcraft/tests/gui.electron.ts",
-      "originalFile": "original-gallery/03-approval.png",
-      "originalSha256": "0447b463ccf5562b5f95f31f4cf8386b4b39ed28c694af79e8041ce1ed0c5b1f"
-    },
-    {
-      "file": "demo-images/05-history.png",
-      "title": "지난 일은 다음 일로",
-      "caption": "작업 기록에서 이전 결과를 다시 엽니다.",
-      "source": "C:/ai/ai-dlc-09-09/mindcraft/aidlc-docs/construction/mindcraft/evidence/screenshots/history-1440.png",
-      "sourceModified": "2026-09-09T01:17:28.667Z",
-      "sha256": "e49c32fc671aaed891f6ff1461a0e4a776315b2d28802144e181166cadf18454",
-      "kind": "Actual GUI screenshot-based annotated illustration edited using image_gen; original retained separately",
-      "sourceCommitOfScreenshot": "Not asserted: captured from active development workspace",
-      "test": "mindcraft/tests/gui.electron.ts",
-      "originalFile": "original-gallery/04-history.png",
-      "originalSha256": "c6e033be1e50af246aaa81c673bf1e00bd517cf6e6cbd5395327487bffaafa89"
-    },
-    {
-      "file": "demo-images/06-model-roles.png",
-      "title": "모델은 일에 맞게",
-      "caption": "일반 작업과 복잡한 계획에 쓸 모델 역할을 설정합니다.",
-      "source": "C:/ai/ai-dlc-09-09/mindcraft/aidlc-docs/construction/mindcraft/evidence/screenshots/setup-1440.png",
-      "sourceModified": "2026-09-09T01:17:30.335Z",
-      "sha256": "120344380c3bf649e69db0fdb7619b5d9e2fdad66f3cd62aea9eb65f9d144266",
-      "kind": "Actual GUI screenshot-based annotated illustration edited using image_gen; original retained separately",
-      "sourceCommitOfScreenshot": "Not asserted: captured from active development workspace",
-      "test": "mindcraft/tests/gui.electron.ts",
-      "originalFile": "original-gallery/05-model-roles.png",
-      "originalSha256": "fe821dcacdbacb923f90b678e7bba7c157e61723b4839940bd88f7f1fc80c80d"
-    }
-  ],
+  "lifecycle": "r3 COMPLETE / AP-MVP-BT-001",
+  "evaluationSource": "artifacts/MindCraft-0.1.0-submission-source.zip",
   "artifacts": [
     {
       "file": "artifacts/MindCraft-0.1.0-source.zip",
-      "bytes": 1474446,
-      "sha256": "5652754ce8a5ea3a7e62d201bdc0f05f330c8701991093b4ce905552a6b13d4d"
-    },
-    {
-      "file": "artifacts/MindCraft-0.1.0-windows-x64.exe",
-      "bytes": 118813172,
-      "sha256": "b911918d80606a290c2b24afb3bc5cf5df2f931bd7ca3d1c12e5d410d5ebe5c2"
-    },
-    {
-      "file": "artifacts/MindCraft-current-source-c699752a.zip",
-      "bytes": 1730232,
-      "sha256": "b985b852186ac2ceef44dea8cac0ae5fb43499cef261d3bfecd07e40beb663f6"
+      "bytes": 2821798,
+      "sha256": "6d0584e858c93dec83c706cf9ef414b21286f08f2a0509acbe38cbb2459ad50e"
     },
     {
       "file": "artifacts/MindCraft-0.1.0-submission-source.zip",
-      "bytes": 2145712,
-      "sha256": "5ae072c016efc45e72f1e87f255238ce60d26bb98217bd90e4a566a6c93c3163"
+      "bytes": 3282062,
+      "sha256": "f7e775b16894bdafa5ec9c4327091e13f1540fea871f3444649cf3ed1b30bc9a"
+    },
+    {
+      "file": "artifacts/MindCraft-0.1.0-windows-x64.exe",
+      "bytes": 118840069,
+      "sha256": "6acc01d3dc82032a9c7214bceef44cada5a67d51524708945fda4f31e3e2b150"
     }
   ],
-  "copyUpdatedAt": "2026-09-09T02:21:22.332Z",
-  "title": "MindCraft | AI 딸깍, 야근 싹뚝",
-  "galleryUpdatedAt": "2026-09-09T03:05:20.981Z",
-  "cover": {
-    "file": "gallery/01-cover.png",
-    "kind": "AI-generated brand concept thumbnail, not a product screenshot",
-    "sha256": "1006de65b50336a0e313eead82d7b1c1e9ddf6f6c9c3542e58c8eec8d93298f5",
-    "bytes": 1508106
-  },
-  "mediaOrder": [
+  "gallery": [
     "gallery/01-cover.png"
   ],
-  "evaluationSource": "artifacts/MindCraft-0.1.0-submission-source.zip"
+  "screenshots": [
+    {
+      "file": "demo-images/01-start.png",
+      "title": "처음이면, 안내부터",
+      "sha256": "e325f649177672629016ec29728fe287240b519b144c805eb13972163823ef61",
+      "source": "actual final portable EXE; offline; no image editing"
+    },
+    {
+      "file": "demo-images/02-sources.png",
+      "title": "AI가 볼 자료, 내가 확인",
+      "sha256": "790c4cadccbb4cbf08caffc594d7b34885ed04a2960d541e4beefc5f4519bb38",
+      "source": "actual final portable EXE; offline; no image editing"
+    },
+    {
+      "file": "demo-images/03-result.png",
+      "title": "내 자료가, 바로 읽는 결과로",
+      "sha256": "e29f2127df1fbe5dc9418db548efb5220a5fd8c10ca01e68834d8fd4e1069e70",
+      "source": "actual final portable EXE; offline; no image editing"
+    },
+    {
+      "file": "demo-images/04-approval.png",
+      "title": "저장하기 전, 한 번 더 확인",
+      "sha256": "4014382dd73ed521b6f3d0b28887c3e8f675d6bbb9f60a84b452abb6d4d56e35",
+      "source": "actual final portable EXE; offline; no image editing"
+    },
+    {
+      "file": "demo-images/05-history.png",
+      "title": "한번 한 일, 다시 이어서",
+      "sha256": "1411c25e40b5778036d605a9289617b02f6b9ce1ee6bc99661daadc8f257bb2d",
+      "source": "actual final portable EXE; offline; no image editing"
+    }
+  ],
+  "fieldLengths": {
+    "title": 24,
+    "description": 623,
+    "instructions": 317
+  },
+  "sourceVerification": {
+    "sourceCommit": "04284c1c98b80fa3fece9fd6d6c79cec7fba6683",
+    "applicationCodeCommit": "26eb06f43d3e02aa1b0db04b85e1e870f239a417",
+    "applicationCodeMatchesRelease": true,
+    "documentationOnlyChanges": [
+      "mindcraft/README.md",
+      "mindcraft/aidlc-docs/aidlc-state.md",
+      "mindcraft/aidlc-docs/audit.md",
+      "mindcraft/aidlc-docs/construction/build-and-test/build-and-test-summary.md",
+      "mindcraft/aidlc-docs/construction/build-and-test/mvp-r3-acceptance-matrix.md",
+      "mindcraft/aidlc-docs/construction/build-and-test/peer-review-guide.md",
+      "mindcraft/aidlc-docs/construction/mindcraft/code/implementation-summary.md",
+      "mindcraft/aidlc-docs/construction/mindcraft/evidence/build-test-r3-execution.json",
+      "mindcraft/aidlc-docs/construction/mindcraft/evidence/github-release-r3.json",
+      "mindcraft/aidlc-docs/construction/mindcraft/evidence/release-r3-manifest.json",
+      "mindcraft/aidlc-docs/construction/mindcraft/evidence/screenshots/r3-packaged-airouter-planner.png",
+      "mindcraft/aidlc-docs/construction/mindcraft/evidence/screenshots/r3-packaged-airouter-worker.png",
+      "mindcraft/aidlc-docs/construction/plans/mindcraft-code-generation-progress.md",
+      "mindcraft/aidlc-docs/reviews/mvp-r3-build-and-test-approval.md",
+      "mindcraft/aidlc-docs/reviews/mvp-r3-build-and-test-manifest.json",
+      "mindcraft/aidlc-docs/reviews/mvp-r3-build-and-test-review.md",
+      "mindcraft/aidlc-docs/reviews/mvp-r3-code-generation-approval.md",
+      "mindcraft/aidlc-docs/reviews/mvp-r3-code-generation-manifest.json",
+      "mindcraft/aidlc-docs/reviews/mvp-r3-source-verification.md"
+    ],
+    "aidlcDocsFiles": 147,
+    "aidlcDocsExactGitMatch": true,
+    "captureFiles": 3,
+    "originalReleaseSourceSha256": "6d0584e858c93dec83c706cf9ef414b21286f08f2a0509acbe38cbb2459ad50e",
+    "sourceCodeChanged": false,
+    "rootLayout": [
+      "README.md",
+      "src/",
+      "aidlc-docs/",
+      "screenshots/"
+    ]
+  },
+  "exeAuthenticode": "NotSigned",
+  "video": {
+    "file": "website/assets/product-demo-v2.mp4",
+    "sha256": "2f015e35acdbfe50ee7b9e2f1f10760f31006b1a1575188b8bd96a9fe0d406e0",
+    "durationSeconds": 49.150000000000006,
+    "appFootage": "earlier development version",
+    "generatedVideoUsed": false
+  }
 }

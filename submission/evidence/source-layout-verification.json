@@ -1,16 +1,37 @@
 {
-  "sourceCommit": "6d63b50460da6b002d6df32e22fba5d10a2cac61",
-  "originalArchive": "MindCraft-0.1.0-source.zip",
-  "originalArchiveSha256": "5652754ce8a5ea3a7e62d201bdc0f05f330c8701991093b4ce905552a6b13d4d",
-  "aidlcDocsFiles": 65,
-  "aidlcDocsExactGitMatch": true,
-  "captureFiles": 11,
-  "originalSourceFiles": 211,
-  "addedOrChanged": [
-    "README.md",
-    "README-original.md",
-    "screenshots/",
-    "submission-source-manifest.json"
+  "sourceCommit": "04284c1c98b80fa3fece9fd6d6c79cec7fba6683",
+  "applicationCodeCommit": "26eb06f43d3e02aa1b0db04b85e1e870f239a417",
+  "applicationCodeMatchesRelease": true,
+  "documentationOnlyChanges": [
+    "mindcraft/README.md",
+    "mindcraft/aidlc-docs/aidlc-state.md",
+    "mindcraft/aidlc-docs/audit.md",
+    "mindcraft/aidlc-docs/construction/build-and-test/build-and-test-summary.md",
+    "mindcraft/aidlc-docs/construction/build-and-test/mvp-r3-acceptance-matrix.md",
+    "mindcraft/aidlc-docs/construction/build-and-test/peer-review-guide.md",
+    "mindcraft/aidlc-docs/construction/mindcraft/code/implementation-summary.md",
+    "mindcraft/aidlc-docs/construction/mindcraft/evidence/build-test-r3-execution.json",
+    "mindcraft/aidlc-docs/construction/mindcraft/evidence/github-release-r3.json",
+    "mindcraft/aidlc-docs/construction/mindcraft/evidence/release-r3-manifest.json",
+    "mindcraft/aidlc-docs/construction/mindcraft/evidence/screenshots/r3-packaged-airouter-planner.png",
+    "mindcraft/aidlc-docs/construction/mindcraft/evidence/screenshots/r3-packaged-airouter-worker.png",
+    "mindcraft/aidlc-docs/construction/plans/mindcraft-code-generation-progress.md",
+    "mindcraft/aidlc-docs/reviews/mvp-r3-build-and-test-approval.md",
+    "mindcraft/aidlc-docs/reviews/mvp-r3-build-and-test-manifest.json",
+    "mindcraft/aidlc-docs/reviews/mvp-r3-build-and-test-review.md",
+    "mindcraft/aidlc-docs/reviews/mvp-r3-code-generation-approval.md",
+    "mindcraft/aidlc-docs/reviews/mvp-r3-code-generation-manifest.json",
+    "mindcraft/aidlc-docs/reviews/mvp-r3-source-verification.md"
   ],
-  "sourceCodeChanged": false
+  "aidlcDocsFiles": 147,
+  "aidlcDocsExactGitMatch": true,
+  "captureFiles": 3,
+  "originalReleaseSourceSha256": "6d0584e858c93dec83c706cf9ef414b21286f08f2a0509acbe38cbb2459ad50e",
+  "sourceCodeChanged": false,
+  "rootLayout": [
+    "README.md",
+    "src/",
+    "aidlc-docs/",
+    "screenshots/"
+  ]
 }

@@ -1,32 +1,32 @@
-# MindCraft 제출 패키지 · 2026-09-09
+# MindCraft | AI 딸깍, 야근 싹뚝
 
-핵심 메시지: **AI 딸깍, 야근 싹뚝.** 준비는 줄이고, 맡긴 일은 확인하고, 다음 일은 더 수월하게.
+[1분 소개·데모](https://ddt-mindcraft.github.io/mindcraft-showcase/?v=13) · [최종 r3 다운로드](https://github.com/ddt-mindcraft/mindcraft-showcase/releases/tag/submission-2026-09-09-v9)
 
-## 제출 필드에 복사
+9/9 AI-DLC 프로젝트의 승인된 r3 첫 릴리스를 기준으로 만든 **제출 v9**입니다.
 
-- 제목: fields/title.txt (24/40자)
-- 설명: fields/description.txt (588/2000자)
-- 실행 안내: fields/run-instructions.txt (264/500자)
-- 갤러리: gallery/01-cover.png 한 장만 업로드합니다. 데모 설명 이미지는 소개 페이지에서 확인합니다. 설명은 gallery/CAPTIONS.md.
-- 기본 소스 ZIP: artifacts/MindCraft-0.1.0-submission-source.zip — 동봉 실행 파일과 대응하는 소스.
-- 실행 파일: artifacts/MindCraft-0.1.0-windows-x64.exe — 별도 전달용.
-- 최신 커밋 참고 소스: artifacts/MindCraft-current-source-c699752a.zip — 기본 소스와 다른 최신 개발 상태.
+## 지금 제출할 파일
 
-소개 링크는 제품 설명에 포함했습니다. ‘실행해 볼 수 있는 곳’은 실제 다운로드 주소가 아직 없어 비워 두었습니다. GitHub Pages는 소개/인터랙티브 설명/실제 캡처 열람용이며 앱 실행 URL이 아닙니다. 실행 파일을 평가자에게 전달하지 않는다면 실행 안내를 다운로드 가능하다는 표현으로 바꾸지 마세요.
+| 제출 항목 | 파일 |
+| --- | --- |
+| 소스 ZIP | **artifacts/MindCraft-0.1.0-submission-source.zip** |
+| 대표 이미지 | **gallery/01-cover.png** 한 장 |
+| 실행 파일 | artifacts/MindCraft-0.1.0-windows-x64.exe |
+| 제목·설명·실행 안내 | SUBMISSION.md 또는 fields/ |
 
-## 1분 데모
+전체 제출 패키지 ZIP이나 GitHub 자동 생성 Source code(zip)를 소스 항목에 올리지 마세요. 평가용 소스 ZIP은 루트 README.md, 실제 src/, 전체 aidlc-docs/, 대표 동작 캡처 3장이 있는 screenshots/를 포함합니다. 원본 릴리스 ZIP은 재현 근거로 artifacts/MindCraft-0.1.0-source.zip에 별도 보관했습니다.
 
-DEMO-60-SECONDS.md 순서대로 보여주세요. 제출 갤러리는 대표 콘셉트 이미지 한 장입니다. 결과·시작·저장 승인·작업 기록·모델 역할 설정의 설명 이미지는 소개 페이지에 유지합니다.
+## 바로 체험
 
-## 현재 수준
+Windows x64에서 EXE를 쓰기 가능한 별도 폴더에 놓고 실행하세요. 첫 안내의 ‘나중에 설정하고 샘플 체험’ → ‘먼저 작은 프로젝트를 체험해 보세요’ → 자료 3개 확인 → ‘이 자료로 진행’ → 결과 열기 순서입니다. ‘파일로 저장’에서 경로·내용을 승인하고 ‘작업 기록’에서 다시 여세요. 샘플은 모델 호출·비용이 없습니다. 실제 AI는 모델·인증 정보를 직접 연결합니다. r3는 문서 분석·작성용이며 명령 실행은 지원하지 않습니다. 새 Windows 환경 전면 검증은 후속입니다. EXE는 코드 서명되지 않아 Windows 경고가 나타날 수 있습니다.
 
-로컬 Electron GUI의 실제 오프라인 샘플입니다. 실제 모델 생성·전체 워크플로우 검증·비용 절감 실측으로 표현하지 않습니다. 최신 캡처와 EXE의 버전 차이 및 근거는 STATUS-AND-EVIDENCE.md를 참고하세요.
+## 자료 안내
 
-## 제출 전 확인
+실행 파일은 코드 서명되지 않았습니다(`NotSigned`). Windows 경고가 나타날 수 있으며, 다운로드 출처와 manifest.json의 해시를 확인할 수 있습니다. 새 Windows 환경 전면 검증은 후속입니다.
 
-파일 수·문자 수·크기는 보관된 9/8 공식 제출 양식 관찰 기준으로 맞췄습니다. 실제 제출 폼의 저장 동작까지 확인한 것은 아닙니다. 전체 묶음 ZIP을 소스 필드에 올리지 말고 위의 기본 소스 ZIP을 선택하세요. 패키지 작성과 소개 페이지 갱신만 수행하며 공식 제출은 하지 않습니다.
+- `website/`: 공개 소개 페이지 전체. Windows EXE 다운로드와 최종 데모·인터랙티브 설명 포함.
+- `demo-images/`: 최종 EXE의 실제 원본 화면 5장. 공식 갤러리에 추가하지 않습니다.
+- `STATUS-AND-EVIDENCE.md`: 완료 범위·실제 검증 근거.
+- `FINAL-REVIEW.md`: 컨셉과 구현 차이, 버전·영상·일정 등 점검 사항.
+- `manifest.json`: 배포물 해시와 캡처 출처.
 
-
-## v5 설명 이미지
-
-demo-images/는 내장 image_gen으로 제목·번호·강조 테두리를 더한 편집본입니다. 원본 픽셀과 완전히 동일한 증거 이미지로 취급하지 않으며, 변경하지 않은 실제 캡처는 original-gallery/에 보존했습니다. UI의 작은 글자와 세부 사항은 원본을 기준으로 확인하세요.
+제목과 핵심 컨셉 5가지는 유지했습니다. 쉬운 시작, 작업 워크플로우, 지식 재사용, 모델 역할 배정, Pi 기반입니다. 현재는 문서 작업 중심이며 독립 설계 리뷰·실행 테스트 자동화 확대는 다음 단계입니다.

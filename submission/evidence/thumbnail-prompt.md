@@ -1,5 +1,0 @@
-# 대표 썸네일
-
-내장 image_gen으로 기존 콘셉트 커버를 편집했습니다. 갤러리 첫 이미지: gallery/01-cover.png. 실제 제품 화면이 아닌 콘셉트 이미지입니다.
-
-Edit this MindCraft concept cover into the FIRST submission gallery thumbnail. Preserve the charming purple-shirt voxel office worker, laptop, golden document blocks, warm office, block steps, cream background and overall composition. Main task: replace the existing large headline on the LEFT with exactly two bold Korean lines: 'AI 딸깍,' on first line and '야근 싹뚝' on second line. Make these the dominant, very large, crisp readable elements so the image works at small thumbnail sizes. Use deep purple for AI and 야근, vivid orange for 딸깍 and 싹뚝. Keep top-left brand exactly 'MindCraft'. Replace the subtitle below with exactly '준비는 줄이고, 내 일은 이어서.' Keep bottom small disclosure exactly 'Windows 개인 AI · 개발 중 · 콘셉트 이미지'. No additional copy, no screenshot UI, no company logos, no exaggerated graphs. Keep character unobscured on right. Polished 16:9 landscape thumbnail, generous safe margins for gallery cropping, no tiny decorative text.

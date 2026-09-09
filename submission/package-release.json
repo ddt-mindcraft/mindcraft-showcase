@@ -1,11 +1,12 @@
 {
-  "version": "v8",
-  "tag": "submission-2026-09-09-v8",
-  "archive": "MindCraft-submission-2026-09-09-v8.zip",
-  "bytes": 156737086,
-  "sha256": "06bb9c642fed5303023c791ceada04d9a96fc41b6f17a97b5205679801d98d24",
+  "version": "v9",
+  "tag": "submission-2026-09-09-v9",
+  "archive": "MindCraft-submission-2026-09-09-v9.zip",
+  "bytes": 149441067,
+  "sha256": "4f40d9621061710f8556d5585473c0f74e0019ee27b01088904f4a54747204b7",
   "title": "MindCraft | AI 딸깍, 야근 싹뚝",
-  "summary": "제출 갤러리를 대표 콘셉트 이미지 한 장으로 축소",
-  "release": "https://github.com/ddt-mindcraft/mindcraft-showcase/releases/tag/submission-2026-09-09-v8",
-  "download": "https://github.com/ddt-mindcraft/mindcraft-showcase/releases/download/submission-2026-09-09-v8/MindCraft-submission-2026-09-09-v8.zip"
+  "summary": "완료된 r3 배포물·전체 AI-DLC 문서·최종 EXE 캡처와 제출 원고 갱신",
+  "release": "https://github.com/ddt-mindcraft/mindcraft-showcase/releases/tag/submission-2026-09-09-v9",
+  "download": "https://github.com/ddt-mindcraft/mindcraft-showcase/releases/download/submission-2026-09-09-v9/MindCraft-submission-2026-09-09-v9.zip",
+  "releaseNote": "9/9 승인된 r3 첫 릴리스 기준입니다.\n\n- 소스 업로드: MindCraft-0.1.0-submission-source.zip (루트 README, src, 전체 최종 aidlc-docs 147개, 대표 캡처 3장)\n- 실행: MindCraft-0.1.0-windows-x64.exe (최종 build-z9OSa3, 코드 서명 없음)\n- 전체 보관: MindCraft-submission-2026-09-09-v9.zip\n- 갤러리: 전체 패키지의 gallery/01-cover.png 한 장\n\n문서 분석·작성, 출처 확인, 승인 저장, 기록·지식 재사용을 제공합니다. 전체 자동 설계 리뷰·실행 테스트, 명령 실행, 새 Windows 환경 전면 검증은 후속입니다. 영상은 이전 개발 UI의 코치마크 설명이며, 최종 실행 근거는 새 EXE 캡처입니다."
 }

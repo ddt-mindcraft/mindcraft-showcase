@@ -1,0 +1,13 @@
+{
+  "video": {
+    "duration": 49.233333,
+    "width": 1920,
+    "height": 1080,
+    "paused": true,
+    "loop": false
+  },
+  "playback": true,
+  "seeking": true,
+  "mobileOverflow": false,
+  "pageErrors": []
+}

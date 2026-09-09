@@ -1,20 +1,20 @@
 {
   "schemaVersion": 1,
-  "completedAt": "2026-09-08T20:30:44.947Z",
+  "completedAt": "2026-09-09T04:02:48.386Z",
   "source": {
-    "commit": "6d63b50460da6b002d6df32e22fba5d10a2cac61",
-    "tree": "a9e88d9dc2c39c074416b9e8c7f63abb07cf5fbf"
+    "commit": "26eb06f43d3e02aa1b0db04b85e1e870f239a417",
+    "tree": "bcc9d01fda8f9e01f913f69c7456153b4556986b"
   },
   "build": {
-    "snapshot": "C:\\ai\\ai-dlc-09-09\\mindcraft\\.cache\\package-inputs\\build-EKcbct",
+    "snapshot": "C:\\ai\\ai-dlc-09-09\\mindcraft\\.cache\\package-inputs\\build-yJQVnT",
     "inputHashes": {
       "dist": {
-        "main.js": "340c18c2eadbb82d9f8d0bf7e89b70d0e6d0f77df2adebc25ddccd8cb555b62c",
-        "native/MindCraft.NativeHost.exe": "b4125ecb8bda1c90933f9dcd464a17f0ccfe8ea1e820a48a15a78b7891a16ad1",
+        "main.js": "66fc3527e07cbf14138bf5972b5fcdf042765e73667052e1e56c0ce27b3b0074",
+        "native/MindCraft.NativeHost.exe": "f7752e4d7417c9e06894c98ece49ea19efe6d65ef6965b392ee7a00a2b8cae2e",
         "preload.cjs": "626e6829299f65a45e7c20c769eed041355a00713dc971e4c5e0f7f8e7e6eb84",
-        "renderer/assets/index-C4Aos5oG.js": "b139e6a0817be8061f5f7f12d623dded88935ec39829bc13dd4b04334f5cbfb5",
-        "renderer/assets/index-DNKAsOTt.css": "2ef95f999c334f0982e44417c19b4b1bddea4af7ebc81dc8269412a3c22cc687",
-        "renderer/index.html": "6799773ccc2f165563481a66c1787fde6366c8f847a0e3df8b25824a48b678d4",
+        "renderer/assets/index-C8sKhUXE.js": "68d1212c2112538a9d7ab667b039605d44657e8a6c1193b5c771c00fdbacb497",
+        "renderer/assets/index-CNcG2yu-.css": "7b0c35e4d44cb142016d4b481168fecf15a7316f3a44fa241dfef0551fa729e9",
+        "renderer/index.html": "c7d3be0618719a725eaa4eaa1300e0bf0bd835415e7dd0d12a1aaa69e8892ed3",
         "samples/project-brief/운영-체크리스트.md": "5dd4cb3bc782c301662afa4f9d21f87455b6ff8fc503227047c77be882e3984c",
         "samples/project-brief/인터뷰-메모.md": "b90e56f0c17af8e8d36928168ac4fc6bfcc11e8bdadd2a35d08f7711aee4a3ee",
         "samples/project-brief/프로젝트-브리프.md": "078c1549c110cf07ea6d40cdfe8c332a0df5e2e876af21d89fb4c94b7d66e423"
@@ -34,13 +34,13 @@
   "artifacts": [
     {
       "file": "MindCraft-0.1.0-windows-x64.exe",
-      "bytes": 118813172,
-      "sha256": "b911918d80606a290c2b24afb3bc5cf5df2f931bd7ca3d1c12e5d410d5ebe5c2"
+      "bytes": 118840069,
+      "sha256": "6acc01d3dc82032a9c7214bceef44cada5a67d51524708945fda4f31e3e2b150"
     },
     {
       "file": "MindCraft-0.1.0-source.zip",
-      "bytes": 1474446,
-      "sha256": "5652754ce8a5ea3a7e62d201bdc0f05f330c8701991093b4ce905552a6b13d4d"
+      "bytes": 2821798,
+      "sha256": "6d0584e858c93dec83c706cf9ef414b21286f08f2a0509acbe38cbb2459ad50e"
     }
   ]
 }

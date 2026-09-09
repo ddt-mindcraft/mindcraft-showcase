@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "sourceZipIntegrity": true,
+  "artifactHashesMatch": true,
+  "fullFinalAidlcDocs": 147,
+  "rootScreenshots": 3,
+  "officialGalleryImages": 1,
+  "firstLinkCorrect": true,
+  "readmeLinksExist": true,
+  "credentialPatternFindings": [],
+  "scope": "tracked source archive high-confidence token/private-key patterns and forbidden paths; not a full security certification",
+  "exeAuthenticode": "NotSigned",
+  "finalGuiSmoke": "PASS"
+}

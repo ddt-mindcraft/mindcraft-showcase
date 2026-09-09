@@ -1,0 +1,44 @@
+{
+  "status": "PASS",
+  "executableSha256": "6acc01d3dc82032a9c7214bceef44cada5a67d51524708945fda4f31e3e2b150",
+  "sourceCommit": "26eb06f43d3e02aa1b0db04b85e1e870f239a417",
+  "build": "build-z9OSa3",
+  "mode": "offline",
+  "mockedIPC": false,
+  "modelCalls": 0,
+  "networkRequests": [],
+  "rendererErrors": [],
+  "viewport": {
+    "width": 1440,
+    "height": 1000
+  },
+  "steps": [
+    "first setup",
+    "3 source cards",
+    "completed result",
+    "approved file saved and contents verified",
+    "history reopened"
+  ],
+  "captures": [
+    {
+      "file": "01-start.png",
+      "capturedAt": "2026-09-09T04:32:02.868Z"
+    },
+    {
+      "file": "02-sources.png",
+      "capturedAt": "2026-09-09T04:32:04.322Z"
+    },
+    {
+      "file": "03-result.png",
+      "capturedAt": "2026-09-09T04:32:09.361Z"
+    },
+    {
+      "file": "04-approval.png",
+      "capturedAt": "2026-09-09T04:32:10.161Z"
+    },
+    {
+      "file": "05-history.png",
+      "capturedAt": "2026-09-09T04:32:11.035Z"
+    }
+  ]
+}

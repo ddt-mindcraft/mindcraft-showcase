@@ -26,13 +26,27 @@ AI 딸깍, 야근 싹뚝.
 
 ### 실행 방법
 
-실행 링크에서 제품 데모를 볼 수 있습니다. 직접 체험하려면 소개 페이지의 Windows 실행 파일을 받으세요. Windows x64에서 EXE를 쓰기 가능한 별도 폴더에 놓고 실행하세요. 첫 안내의 ‘나중에 설정하고 샘플 체험’ → ‘먼저 작은 프로젝트를 체험해 보세요’ → 자료 3개 확인 → ‘이 자료로 진행’ → 결과 열기 순서입니다. ‘파일로 저장’에서 경로·내용을 승인하고 ‘작업 기록’에서 다시 여세요. 준비된 샘플로 바로 체험할 수 있습니다. 내 모델은 ‘연결 설정’에서 등록합니다. 실행 환경·지원 범위는 STATUS-AND-EVIDENCE.md를 확인하세요.
+실행 링크에서 데모 영상과 실제 실행 가능한 Windows EXE를 함께 제공합니다.
+
+1. 데모 보기
+링크를 열고 약 47초 영상으로 사용 흐름을 확인하세요.
+
+2. 직접 실행하기
+Windows 실행 파일을 내려받아 쓰기 가능한 별도 폴더에 놓고 실행하세요. (Windows x64)
+
+3. 샘플로 첫 작업
+‘나중에 설정하고 샘플 체험’ → 샘플 프로젝트 선택 → 자료 확인 → ‘이 자료로 진행’ → 결과 열기.
+
+4. 저장하고 다시 활용하기
+‘파일로 저장’에서 경로·내용을 확인해 승인하세요. 결과는 ‘작업 기록’에서 다시 열 수 있습니다.
+
+내 업무에 사용할 AI 모델은 ‘연결 설정’에서 등록하세요.
 
 ### 업로드할 파일
 
 - **소스 ZIP**: `artifacts/MindCraft-submission-v1.0.1-source.zip` 하나. 전체 제출 패키지와 GitHub 자동 생성 Source code(zip)는 이 항목에 올리지 않습니다.
 - **갤러리**: `gallery/01-cover.png` 한 장. 실제 데모 이미지는 소개 페이지에 있습니다.
-- **실행 URL (데모 바로가기)**: https://ddt-mindcraft.github.io/mindcraft-showcase/?v=17#product-film
+- **실행 URL (데모·Windows EXE)**: https://ddt-mindcraft.github.io/mindcraft-showcase/?v=17#product-film
 - **소개 URL**: https://ddt-mindcraft.github.io/mindcraft-showcase/?v=17
 
 현재 지원 범위와 검증 근거는 [STATUS-AND-EVIDENCE.md](STATUS-AND-EVIDENCE.md), 최종 점검 사항은 [IMPROVEMENTS.md](IMPROVEMENTS.md)를 확인하세요.

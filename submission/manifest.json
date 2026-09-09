@@ -76,7 +76,7 @@
   "fieldLengths": {
     "title": 24,
     "description": 515,
-    "instructions": 319
+    "instructions": 340
   },
   "sourceVerification": {
     "sourceCommit": "04284c1c98b80fa3fece9fd6d6c79cec7fba6683",
